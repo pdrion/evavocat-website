@@ -42,6 +42,7 @@ export const FeaturesSection = () => {
                   <Icon
                     name={icon as keyof typeof icons}
                     size={28}
+                    color="hsl(var(--primary))"
                     className="text-primary"
                   />
                 </div>
