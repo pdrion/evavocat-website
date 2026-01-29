@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "presentation": "About",
+    "expertises": "Expertise",
+    "violences": "Domestic Violence",
+    "contact": "Contact",
+    "appointment": "Book Now"
+  },
+  "hero": {
+    "subtitle": "Attorney at the Nice Bar",
+    "name": "Eva Ballin",
+    "tagline": "Your defense, our commitment",
+    "description": "Specialized in criminal law, white-collar crime, and victims' rights. Recognized expertise in supporting victims of domestic and family violence.",
+    "cta": "Book an appointment",
+    "discover": "Discover my expertise",
+    "years": "Years",
+    "experience": "of experience"
+  },
+  "about": {
+    "label": "About",
+    "title": "Eva Ballin, your lawyer in Nice",
+    "description1": "As an attorney at the Nice Bar, I put my expertise at the service of my clients with rigor and humanity. Specialized in criminal law, white-collar crime, and victims' rights, I assist individuals and businesses with their most complex legal issues.",
+    "description2": "My international background has allowed me to develop a global vision of law and an essential adaptability in an ever-evolving legal world.",
+    "expertise": {
+      "title": "Recognized expertise",
+      "description": "Over 15 years of experience in criminal law with specialization in victims' rights and domestic violence."
+    },
+    "international": {
+      "title": "International dimension",
+      "description": "Experience in Singapore, Dubai, Luxembourg, and Monaco. Fluent practice in French and English."
+    },
+    "human": {
+      "title": "Human approach",
+      "description": "Attentive listening and personalized support. Each case is handled with the utmost care."
+    },
+    "rigorous": {
+      "title": "Rigorous defense",
+      "description": "Total commitment to defending your rights and interests, with meticulous preparation of each case."
+    }
+  },
+  "expertises": {
+    "label": "Areas of Practice",
+    "title": "My Expertise",
+    "description": "With over 15 years of experience in criminal law, I support you in all aspects of your defense or your rights as a victim.",
+    "penal": {
+      "title": "Criminal Law",
+      "description": "Defense of individuals involved in criminal proceedings. Assistance during police custody, immediate appearance, investigation, and criminal court hearings."
+    },
+    "business": {
+      "title": "White-Collar Crime",
+      "description": "Support for executives and companies facing economic offenses: misuse of corporate assets, fraud, breach of trust, money laundering."
+    },
+    "financial": {
+      "title": "Financial Criminal Law",
+      "description": "Expertise in stock market offenses, tax fraud, corruption, and financial regulation violations."
+    },
+    "victims": {
+      "title": "Victims' Rights",
+      "description": "Support for victims of criminal offenses in their legal proceedings. Civil party constitution and obtaining compensation."
+    },
+    "domestic": {
+      "title": "Domestic Violence",
+      "description": "Specialized support for victims of domestic violence. Protection orders, complaints, support throughout the procedure."
+    },
+    "family": {
+      "title": "Family Law",
+      "description": "Divorce, separation, child custody, alimony. Family mediation and amicable dispute resolution."
+    }
+  },
+  "domestic": {
+    "label": "Specialization",
+    "title": "Domestic and Family Violence",
+    "description1": "Domestic violence is a painful reality affecting thousands of people. As a specialized attorney, I am committed to supporting victims with humanity and professionalism.",
+    "description2": "Whether you are a victim of physical, psychological, economic, or sexual violence, I help you assert your rights and protect yourself and your children.",
+    "description3": "My approach is based on listening, respecting your pace, and implementing a legal strategy tailored to your situation.",
+    "cta": "Confidential consultation",
+    "servicesTitle": "My support",
+    "services": {
+      "1": "Personalized listening and support",
+      "2": "Filing complaints and reports",
+      "3": "Protection order requests",
+      "4": "Civil party constitution",
+      "5": "Court hearing support",
+      "6": "Coordination with victim support organizations"
+    },
+    "emergency": "If you are in immediate danger, contact 17 (Police) or 3919 (Women Violence Info)."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Book an appointment",
+    "description": "For any consultation or information request, please do not hesitate to contact me. I will respond as soon as possible.",
+    "office": "Office",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours",
+    "hoursValue": "Monday - Friday: 9am - 7pm",
+    "byAppointment": "By appointment only",
+    "whatsapp": "Contact via WhatsApp",
+    "formTitle": "Contact form",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "emailLabel": "Email",
+    "subject": "Legal area",
+    "message": "Message",
+    "messagePlaceholder": "Briefly describe your situation...",
+    "send": "Send message",
+    "subjects": {
+      "penal": "Criminal Law",
+      "business": "White-Collar Crime",
+      "victims": "Victims' Rights",
+      "domestic": "Domestic Violence",
+      "family": "Family Law",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "description": "Law firm specialized in criminal law, white-collar crime, and victims' rights. Recognized expertise in domestic and family violence.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy"
+  },
+  "theme": {
+    "dark": "Dark",
+    "light": "Light",
+    "toggle": "Toggle theme"
+  }
+}

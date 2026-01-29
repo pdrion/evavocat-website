@@ -1,5 +1,5 @@
 "use client";
-import { ChevronsDown, Github, Menu } from "lucide-react";
+import { Menu, Phone, Globe } from "lucide-react";
 import React from "react";
 import {
   Sheet,
@@ -12,72 +12,56 @@ import {
 import { Separator } from "../ui/separator";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
 } from "../ui/navigation-menu";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import { ToggleTheme } from "./toogle-theme";
-
-interface RouteProps {
-  href: string;
-  label: string;
-}
-
-interface FeatureProps {
-  title: string;
-  description: string;
-}
-
-const routeList: RouteProps[] = [
-  {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
-  {
-    href: "#team",
-    label: "Team",
-  },
-  {
-    href: "#contact",
-    label: "Contact",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
-];
-
-const featureList: FeatureProps[] = [
-  {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
-  },
-  {
-    title: "Build Trust",
-    description:
-      "Leverages social proof elements to establish trust and credibility.",
-  },
-  {
-    title: "Capture Leads",
-    description:
-      "Make your lead capture form visually appealing and strategically.",
-  },
-];
+import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const t = useTranslations("nav");
+  const pathname = usePathname();
+
+  const currentLocale = pathname.startsWith("/en") ? "en" : "fr";
+  const otherLocale = currentLocale === "fr" ? "en" : "fr";
+  const switchPath = currentLocale === "fr"
+    ? `/en${pathname}`
+    : pathname.replace("/en", "") || "/";
+
+  const routeList = [
+    { href: "#presentation", label: t("presentation") },
+    { href: "#expertises", label: t("expertises") },
+    { href: "#violences-conjugales", label: t("violences") },
+    { href: "#contact", label: t("contact") },
+  ];
+
   return (
-    <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
-      <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-        Shadcn
+    <header className="w-full top-0 mx-auto sticky border-b border-border z-40 flex justify-between items-center px-6 py-3 bg-background/95 backdrop-blur-sm">
+      <Link href="/" className="flex items-center gap-3">
+        <Image
+          src="/logo.png"
+          alt="Eva Ballin - Avocat"
+          width={40}
+          height={40}
+          className=""
+        />
+        <div className="hidden sm:block">
+          <span className="block text-lg font-semibold text-[#112751] dark:text-white">
+            Eva Ballin
+          </span>
+          <span className="block text-xs text-muted-foreground tracking-wider uppercase">
+            Avocat
+          </span>
+        </div>
       </Link>
-      {/* <!-- Mobile --> */}
+
+      {/* Mobile */}
       <div className="flex items-center lg:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
@@ -89,14 +73,27 @@ export const Navbar = () => {
 
           <SheetContent
             side="left"
-            className="flex flex-col justify-between rounded-tr-2xl rounded-br-2xl bg-card border-secondary"
+            className="flex flex-col justify-between bg-background border-r border-border"
           >
             <div>
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
-                  <Link href="/" className="flex items-center">
-                    <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-                    Shadcn
+                  <Link href="/" className="flex items-center gap-3">
+                    <Image
+                      src="/logo.png"
+                      alt="Eva Ballin - Avocat"
+                      width={40}
+                      height={40}
+                      className=""
+                    />
+                    <div>
+                      <span className="block text-lg font-semibold text-[#112751] dark:text-white">
+                        Eva Ballin
+                      </span>
+                      <span className="block text-xs text-muted-foreground tracking-wider uppercase font-normal">
+                        Avocat
+                      </span>
+                    </div>
                   </Link>
                 </SheetTitle>
               </SheetHeader>
@@ -116,54 +113,29 @@ export const Navbar = () => {
               </div>
             </div>
 
-            <SheetFooter className="flex-col sm:flex-col justify-start items-start">
+            <SheetFooter className="flex-col sm:flex-col justify-start items-start gap-2">
               <Separator className="mb-2" />
-
-              <ToggleTheme />
+              <div className="flex items-center gap-2 w-full">
+                <ToggleTheme />
+                <Button asChild variant="ghost" size="sm">
+                  <Link href={switchPath}>
+                    <Globe className="size-4 mr-2" />
+                    {otherLocale.toUpperCase()}
+                  </Link>
+                </Button>
+              </div>
             </SheetFooter>
           </SheetContent>
         </Sheet>
       </div>
 
-      {/* <!-- Desktop --> */}
+      {/* Desktop */}
       <NavigationMenu className="hidden lg:block mx-auto">
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-card text-base">
-              Features
-            </NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
-                <Image
-                  src="https://avatars.githubusercontent.com/u/75042455?v=4"
-                  alt="RadixLogo"
-                  className="h-full w-full rounded-md object-cover"
-                  width={600}
-                  height={600}
-                />
-                <ul className="flex flex-col gap-2">
-                  {featureList.map(({ title, description }) => (
-                    <li
-                      key={title}
-                      className="rounded-md p-3 text-sm hover:bg-muted"
-                    >
-                      <p className="mb-1 font-semibold leading-none text-foreground">
-                        {title}
-                      </p>
-                      <p className="line-clamp-2 text-muted-foreground">
-                        {description}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
-
-          <NavigationMenuItem>
             {routeList.map(({ href, label }) => (
               <NavigationMenuLink key={href} asChild>
-                <Link href={href} className="text-base px-2">
+                <Link href={href} className="text-base px-3 py-2 hover:text-primary transition-colors">
                   {label}
                 </Link>
               </NavigationMenuLink>
@@ -172,16 +144,18 @@ export const Navbar = () => {
         </NavigationMenuList>
       </NavigationMenu>
 
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex items-center gap-2">
+        <Button asChild variant="ghost" size="sm">
+          <Link href={switchPath}>
+            <Globe className="size-4 mr-1" />
+            {otherLocale.toUpperCase()}
+          </Link>
+        </Button>
         <ToggleTheme />
-
-        <Button asChild size="sm" variant="ghost" aria-label="View on GitHub">
-          <Link
-            aria-label="View on GitHub"
-            href="https://github.com/nobruf/shadcn-landing-page.git"
-            target="_blank"
-          >
-            <Github className="size-5" />
+        <Button asChild size="sm" className="bg-[#112751] hover:bg-[#112751]/90 dark:bg-primary dark:hover:bg-primary/90 text-white dark:text-[#112751] rounded-none">
+          <Link href="https://wa.me/33626064138" target="_blank">
+            <Phone className="size-4 mr-2" />
+            {t("appointment")}
           </Link>
         </Button>
       </div>

@@ -1,80 +1,73 @@
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-
-enum ProService {
-  YES = 1,
-  NO = 0,
-}
-interface ServiceProps {
-  title: string;
-  pro: ProService;
-  description: string;
-}
-const serviceList: ServiceProps[] = [
-  {
-    title: "Custom Domain Integration",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
-    pro: 0,
-  },
-  {
-    title: "Social Media Integrations",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
-  },
-  {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
-  },
-  {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
-    pro: 1,
-  },
-];
+"use client";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Check, Phone } from "lucide-react";
+import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export const ServicesSection = () => {
+  const t = useTranslations("domestic");
+
+  const serviceKeys = ["1", "2", "3", "4", "5", "6"];
+
   return (
-    <section id="services" className="container py-24 sm:py-32">
-      <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Services
-      </h2>
+    <section id="violences-conjugales" className="container py-24 sm:py-32">
+      <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <p className="text-sm text-primary mb-2 tracking-widest uppercase font-medium">
+            {t("label")}
+          </p>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
-      </h2>
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
-      </h3>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+          <h2 className="text-3xl md:text-4xl mb-6 text-[#112751] dark:text-white">
+            {t("title")}
+          </h2>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
-        {serviceList.map(({ title, description, pro }) => (
-          <Card
-            key={title}
-            className="bg-muted/60 dark:bg-card h-full relative"
+          <div className="space-y-4 text-lg text-muted-foreground mb-8">
+            <p>{t("description1")}</p>
+            <p>{t("description2")}</p>
+            <p>{t("description3")}</p>
+          </div>
+
+          <Button
+            size="lg"
+            className="bg-[#112751] hover:bg-[#112751]/90 dark:bg-primary dark:hover:bg-primary/90 text-white dark:text-[#112751] font-medium rounded-none"
+            asChild
           >
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
-            </CardHeader>
-            <Badge
-              data-pro={ProService.YES === pro}
-              variant="secondary"
-              className="absolute -top-2 -right-3 data-[pro=false]:hidden"
-            >
-              PRO
-            </Badge>
-          </Card>
-        ))}
+            <Link href="https://wa.me/33626064138" target="_blank">
+              <Phone className="mr-2 h-5 w-5" />
+              {t("cta")}
+            </Link>
+          </Button>
+        </div>
+
+        <Card className="bg-white dark:bg-card border-2 border-[#112751]/10 dark:border-white/10 rounded-none">
+          <CardHeader>
+            <CardTitle className="text-2xl text-[#112751] dark:text-white">
+              {t("servicesTitle")}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ul className="space-y-4">
+              {serviceKeys.map((key) => (
+                <li key={key} className="flex items-start gap-3">
+                  <div className="bg-primary/10 p-1 mt-0.5">
+                    <Check className="h-4 w-4 text-primary" />
+                  </div>
+                  <span className="text-[#112751]/80 dark:text-white/80">
+                    {t(`services.${key}`)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+
+            <div className="mt-8 p-4 bg-[#112751]/5 dark:bg-white/5 border-l-4 border-primary">
+              <p className="text-sm text-[#112751]/70 dark:text-white/70">
+                <strong className="text-[#112751] dark:text-white">Important :</strong>{" "}
+                {t("emergency")}
+              </p>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );

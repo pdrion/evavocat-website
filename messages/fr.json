@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "presentation": "Présentation",
+    "expertises": "Expertises",
+    "violences": "Violences conjugales",
+    "contact": "Contact",
+    "appointment": "Rendez-vous"
+  },
+  "hero": {
+    "subtitle": "Avocat au Barreau de Nice",
+    "name": "Eva Ballin",
+    "tagline": "Votre défense, notre engagement",
+    "description": "Spécialisée en droit pénal, droit pénal des affaires et droit des victimes. Une expertise reconnue dans l'accompagnement des victimes de violences conjugales et intrafamiliales.",
+    "cta": "Prendre rendez-vous",
+    "discover": "Découvrir mes expertises",
+    "years": "Années",
+    "experience": "d'expérience"
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Eva Ballin, votre avocat à Nice",
+    "description1": "Avocate au Barreau de Nice, je mets mon expertise au service de mes clients avec rigueur et humanité. Spécialisée en droit pénal, droit pénal des affaires et droit des victimes, j'accompagne particuliers et entreprises dans leurs problématiques juridiques les plus complexes.",
+    "description2": "Mon parcours international m'a permis de développer une vision globale du droit et une capacité d'adaptation essentielle dans un monde juridique en constante évolution.",
+    "expertise": {
+      "title": "Expertise reconnue",
+      "description": "Plus de 15 ans d'expérience en droit pénal avec une spécialisation en droit des victimes et violences conjugales."
+    },
+    "international": {
+      "title": "Dimension internationale",
+      "description": "Expérience à Singapour, Dubaï, Luxembourg et Monaco. Pratique courante en français et anglais."
+    },
+    "human": {
+      "title": "Approche humaine",
+      "description": "Écoute attentive et accompagnement personnalisé. Chaque dossier est traité avec le plus grand soin."
+    },
+    "rigorous": {
+      "title": "Défense rigoureuse",
+      "description": "Engagement total dans la défense de vos droits et intérêts, avec une préparation minutieuse de chaque dossier."
+    }
+  },
+  "expertises": {
+    "label": "Domaines d'intervention",
+    "title": "Mes expertises",
+    "description": "Forte d'une expérience de plus de 15 ans en droit pénal, je vous accompagne dans tous les aspects de votre défense ou de vos droits en tant que victime.",
+    "penal": {
+      "title": "Droit pénal",
+      "description": "Défense des personnes mises en cause dans des procédures pénales. Assistance en garde à vue, comparution immédiate, instruction et audience correctionnelle ou criminelle."
+    },
+    "business": {
+      "title": "Droit pénal des affaires",
+      "description": "Accompagnement des dirigeants et entreprises confrontés à des infractions économiques : abus de biens sociaux, escroquerie, abus de confiance, blanchiment."
+    },
+    "financial": {
+      "title": "Droit pénal financier",
+      "description": "Expertise en matière de délits boursiers, fraude fiscale, corruption et infractions relatives à la régulation financière."
+    },
+    "victims": {
+      "title": "Droit des victimes",
+      "description": "Accompagnement des victimes d'infractions pénales dans leurs démarches judiciaires. Constitution de partie civile et obtention de réparation."
+    },
+    "domestic": {
+      "title": "Violences conjugales",
+      "description": "Prise en charge spécialisée des victimes de violences intrafamiliales. Ordonnance de protection, plainte, accompagnement tout au long de la procédure."
+    },
+    "family": {
+      "title": "Droit de la famille",
+      "description": "Divorce, séparation, garde d'enfants, pension alimentaire. Médiation familiale et résolution amiable des conflits."
+    }
+  },
+  "domestic": {
+    "label": "Spécialisation",
+    "title": "Violences conjugales et intrafamiliales",
+    "description1": "Les violences conjugales constituent une réalité douloureuse qui touche des milliers de personnes. En tant qu'avocate spécialisée, je m'engage à accompagner les victimes avec humanité et professionnalisme.",
+    "description2": "Que vous soyez victime de violences physiques, psychologiques, économiques ou sexuelles, je vous aide à faire valoir vos droits et à vous protéger, vous et vos enfants.",
+    "description3": "Mon approche repose sur l'écoute, le respect de votre rythme et la mise en place d'une stratégie juridique adaptée à votre situation.",
+    "cta": "Consultation confidentielle",
+    "servicesTitle": "Mon accompagnement",
+    "services": {
+      "1": "Écoute et accompagnement personnalisé",
+      "2": "Dépôt de plainte et main courante",
+      "3": "Demande d'ordonnance de protection",
+      "4": "Constitution de partie civile",
+      "5": "Accompagnement aux audiences",
+      "6": "Coordination avec les associations d'aide aux victimes"
+    },
+    "emergency": "Si vous êtes en danger immédiat, contactez le 17 (Police) ou le 3919 (Violences Femmes Info)."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Prenez rendez-vous",
+    "description": "Pour toute demande de consultation ou d'information, n'hésitez pas à me contacter. Je vous répondrai dans les meilleurs délais.",
+    "office": "Cabinet",
+    "phone": "Téléphone",
+    "email": "Email",
+    "hours": "Horaires",
+    "hoursValue": "Lundi - Vendredi : 9h - 19h",
+    "byAppointment": "Sur rendez-vous uniquement",
+    "whatsapp": "Contacter via WhatsApp",
+    "formTitle": "Formulaire de contact",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "emailLabel": "Email",
+    "subject": "Domaine juridique",
+    "message": "Message",
+    "messagePlaceholder": "Décrivez brièvement votre situation...",
+    "send": "Envoyer le message",
+    "subjects": {
+      "penal": "Droit pénal",
+      "business": "Droit pénal des affaires",
+      "victims": "Droit des victimes",
+      "domestic": "Violences conjugales",
+      "family": "Droit de la famille",
+      "other": "Autre"
+    }
+  },
+  "footer": {
+    "description": "Cabinet d'avocat spécialisé en droit pénal, droit pénal des affaires et droit des victimes. Expertise reconnue en violences conjugales et intrafamiliales.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité"
+  },
+  "theme": {
+    "dark": "Sombre",
+    "light": "Clair",
+    "toggle": "Changer de thème"
+  }
+}

@@ -1,84 +1,76 @@
+"use client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
 import { icons } from "lucide-react";
-
-interface BenefitsProps {
-  icon: string;
-  title: string;
-  description: string;
-}
-
-const benefitList: BenefitsProps[] = [
-  {
-    icon: "Blocks",
-    title: "Build Brand Trust",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
-  },
-  {
-    icon: "LineChart",
-    title: "More Leads",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
-  },
-  {
-    icon: "Wallet",
-    title: "Higher Conversions",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
-  },
-  {
-    icon: "Sparkle",
-    title: "Test Marketing Ideas",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
-  },
-];
+import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export const BenefitsSection = () => {
-  return (
-    <section id="benefits" className="container py-24 sm:py-32">
-      <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
-        <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+  const t = useTranslations("about");
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
-          </h2>
-          <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+  const benefitList = [
+    { icon: "Scale", key: "expertise" },
+    { icon: "Globe", key: "international" },
+    { icon: "Heart", key: "human" },
+    { icon: "Shield", key: "rigorous" },
+  ];
+
+  return (
+    <section id="presentation" className="container py-24 sm:py-32">
+      <div className="grid lg:grid-cols-2 place-items-center lg:gap-16">
+        <div className="order-2 lg:order-1">
+          <p className="text-sm text-primary mb-2 tracking-widest uppercase font-medium">
+            {t("label")}
           </p>
+
+          <h2 className="text-3xl md:text-4xl mb-4 text-[#112751] dark:text-white">
+            {t("title")}
+          </h2>
+          <p className="text-lg text-muted-foreground mb-8">
+            {t("description1")}
+          </p>
+          <p className="text-lg text-muted-foreground mb-8">
+            {t("description2")}
+          </p>
+
+          <div className="grid sm:grid-cols-2 gap-4">
+            {benefitList.map(({ icon, key }) => (
+              <Card
+                key={key}
+                className="bg-muted/50 dark:bg-card hover:bg-background transition-all group border-transparent hover:border-primary/20"
+              >
+                <CardHeader className="pb-2">
+                  <div className="flex items-center gap-3">
+                    <div className="bg-primary/10 p-2">
+                      <Icon
+                        name={icon as keyof typeof icons}
+                        size={20}
+                        color="hsl(var(--primary))"
+                        className="text-primary"
+                      />
+                    </div>
+                    <CardTitle className="text-base">{t(`${key}.title`)}</CardTitle>
+                  </div>
+                </CardHeader>
+
+                <CardContent className="text-sm text-muted-foreground">
+                  {t(`${key}.description`)}
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-4 w-full">
-          {benefitList.map(({ icon, title, description }, index) => (
-            <Card
-              key={title}
-              className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number"
-            >
-              <CardHeader>
-                <div className="flex justify-between">
-                  <Icon
-                    name={icon as keyof typeof icons}
-                    size={32}
-                    color="hsl(var(--primary))"
-                    className="mb-6 text-primary"
-                  />
-                  <span className="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30">
-                    0{index + 1}
-                  </span>
-                </div>
-
-                <CardTitle>{title}</CardTitle>
-              </CardHeader>
-
-              <CardContent className="text-muted-foreground">
-                {description}
-              </CardContent>
-            </Card>
-          ))}
+        <div className="order-1 lg:order-2 mb-8 lg:mb-0">
+          <div className="relative">
+            <Image
+              src="/photo-serment.png"
+              alt="Eva Ballin - Prestation de serment"
+              width={500}
+              height={600}
+              className="relative shadow-2xl border-4 border-[#112751]/10 dark:border-white/10"
+            />
+          </div>
         </div>
       </div>
     </section>
