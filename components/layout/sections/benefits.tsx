@@ -26,12 +26,23 @@ export const BenefitsSection = () => {
           <h2 className="text-3xl md:text-4xl mb-4 text-[#112751] dark:text-white">
             {t("title")}
           </h2>
-          <p className="text-lg text-muted-foreground mb-8">
+          <p className="text-lg text-muted-foreground mb-4">
             {t("description1")}
           </p>
-          <p className="text-lg text-muted-foreground mb-8">
+          <p className="text-lg text-muted-foreground mb-4">
             {t("description2")}
           </p>
+          <p className="text-lg text-muted-foreground mb-4">
+            {t("description3")}
+          </p>
+          <p className="text-lg text-muted-foreground mb-8">
+            {t("description4")}
+          </p>
+
+          <blockquote className="border-l-4 border-primary pl-4 mb-8 italic text-muted-foreground">
+            <p className="text-base mb-2">{t("quote")}</p>
+            <footer className="text-sm font-medium text-[#112751] dark:text-white">— {t("quoteAuthor")}</footer>
+          </blockquote>
 
           <div className="grid sm:grid-cols-2 gap-4">
             {benefitList.map(({ icon, key }) => (

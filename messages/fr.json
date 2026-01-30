@@ -17,8 +17,10 @@
     "label": "Présentation",
     "title": "Eva Ballin, Avocat à Nice",
     "description1": "Eva Ballin est avocat au Barreau de Nice. Elle exerce principalement en droit pénal et droit pénal des affaires, là où le droit rencontre la vie réelle, ses tensions, ses urgences, ses risques. Pour elle, la procédure pénale n'est pas un simple cadre : c'est un terrain de précision, où chaque mot compte, où chaque erreur peut coûter cher, et où chaque irrégularité doit être relevée, discutée, combattue.",
-    "description2": "Formée pendant deux ans à l'Institut de Sciences pénales d'Aix-en-Provence (mention Bien), titulaire de deux Masters en droit des affaires et criminalité financière, ainsi que d'un DESU en risque pénal économique. Elle a enrichi ce parcours par une expérience en compliance et lutte contre le blanchiment au sein d'un Big Four au Luxembourg, avant d'intégrer un cabinet en droit pénal des affaires à Monaco. Formée par Maître Joseph Cohen Sabban, Maîtres Steeve Ruben et Marie Violleau à Paris, puis par Maître Sophie Jonquet à Nice.",
-    "quote": "« Le courage, pour un avocat, c'est l'essentiel, ce sans quoi le reste ne compte pas : talent, culture, connaissance du droit, tout est utile à l'avocat. Mais sans le courage, au moment décisif, il n'y a plus que des mots, des phrases, qui se suivent, qui brillent et qui meurent. »",
+    "description2": "Formée pendant deux ans à l'Institut de Sciences pénales d'Aix-en-Provence, dont elle est sortie diplômée avec mention Bien, elle est également titulaire de deux Masters — en droit des affaires puis en criminalité financière — ainsi que d'un DESU en risque pénal économique. Elle a enrichi ce parcours académique par une expérience en compliance et lutte contre le blanchiment de capitaux et le financement du terrorisme au sein d'un Big Four au Luxembourg, avant d'intégrer un cabinet d'avocats en droit pénal des affaires à Monaco.",
+    "description3": "Elle a été formée par Maître Joseph COHEN SABBAN ou encore Maîtres Steeve RUBEN et Marie VIOLLEAU à Paris puis par Maître Sophie JONQUET à Nice. Ayant également vécu à Singapour et à Dubaï, Eva Ballin possède une ouverture internationale qui nourrit sa pratique. Elle intervient aussi bien en français qu'en anglais, avec la même rigueur et la même exigence.",
+    "description4": "Depuis janvier 2025, elle exerce au sein d'un cabinet niçois majoritairement dédié au droit pénal, en qualité d'avocat collaborateur, tout en développant sa propre activité. On la décrit souvent comme à l'écoute, humaine et tenace. Elle aborde chaque dossier comme un combat qui mérite d'être mené jusqu'au bout, avec méthode, loyauté et détermination.",
+    "quote": "« Le courage, pour un avocat, c'est l'essentiel, ce sans quoi le reste ne compte pas : talent, culture, connaissance du droit, tout est utile à l'avocat. Mais sans le courage, au moment décisif, il n'y a plus que des mots, des phrases, qui se suivent, qui brillent et qui meurent. Défendre, ce n'est pas tirer un feu d'artifice : la belle bleue, la belle rouge, et le bouquet qui monte, qui explose et retombe en mille fleurs. Puis le silence et la nuit reviennent et il ne reste rien. »",
     "quoteAuthor": "Robert Badinter",
     "expertise": {
       "title": "Formation d'excellence",
@@ -43,11 +45,15 @@
     "description": "Inscrite au Barreau de Nice, j'interviens sur l'ensemble du territoire français en droit pénal sous toutes ses formes.",
     "penal": {
       "title": "Droit pénal général",
-      "description": "Violences, infractions sexuelles, vol, escroquerie, abus de confiance, harcèlement, menaces, homicide, assassinat. Assistance de la garde à vue jusqu'à l'exécution des peines devant toutes les juridictions pénales."
+      "description": "Infractions portant atteinte aux personnes et aux biens : violences, infractions sexuelles, vol, escroquerie, abus de confiance, harcèlement, menaces, enlèvement, séquestration, homicide, assassinat. Assistance de la garde à vue jusqu'à l'exécution des peines devant toutes les juridictions pénales."
     },
     "business": {
-      "title": "Droit pénal des affaires",
-      "description": "Abus de biens sociaux, blanchiment, fraude fiscale, escroquerie, détournement de fonds publics, corruption, travail dissimulé, harcèlement moral ou sexuel, infractions au droit du travail."
+      "title": "Droit pénal des affaires et du travail",
+      "description": "Accompagnement des dirigeants, cadres, entrepreneurs et salariés confrontés à des poursuites pénales : abus de biens sociaux, travail dissimulé, harcèlement moral ou sexuel, infractions au droit du travail, infractions à la réglementation."
+    },
+    "financial": {
+      "title": "Droit pénal financier",
+      "description": "Défense et partie civile dans les dossiers d'infractions financières : blanchiment de capitaux, escroquerie, fraude, détournement de fonds, abus de confiance, infractions boursières. Vision stratégique issue de l'expérience en compliance."
     },
     "public": {
       "title": "Droit pénal public",
@@ -55,15 +61,19 @@
     },
     "compliance": {
       "title": "Conformité et RSE",
-      "description": "Prévention et gestion des risques pénaux, mise en place de dispositifs de conformité, investigations internes, politiques de responsabilité sociale et éthique."
+      "description": "Prévention et gestion des risques pénaux : mise en place de dispositifs de conformité, investigations internes, élaboration de politiques de responsabilité sociale et éthique."
+    },
+    "press": {
+      "title": "Droit de la presse",
+      "description": "Diffamation, injure, atteinte à la réputation et infractions de presse, en défense comme en représentation des victimes."
     },
     "victims": {
       "title": "Droit des victimes",
       "description": "Accompagnement à chaque étape de la procédure pénale, de la plainte à l'audience, avec attention portée à la reconnaissance du vécu et à la réparation du préjudice."
     },
-    "press": {
-      "title": "Droit de la presse",
-      "description": "Diffamation, injure, atteinte à la réputation et infractions de presse, en défense comme en représentation des victimes."
+    "contracts": {
+      "title": "Droit des contrats",
+      "description": "Assistance en matière contractuelle : contentieux liés à l'exécution ou à la rupture des contrats civils et commerciaux."
     }
   },
   "domestic": {
@@ -126,10 +136,12 @@
     "subjects": {
       "penal": "Droit pénal général",
       "business": "Droit pénal des affaires",
+      "financial": "Droit pénal financier",
       "public": "Droit pénal public",
       "compliance": "Conformité et RSE",
       "victims": "Droit des victimes",
       "press": "Droit de la presse",
+      "contracts": "Droit des contrats",
       "domestic": "Violences conjugales",
       "other": "Autre"
     }

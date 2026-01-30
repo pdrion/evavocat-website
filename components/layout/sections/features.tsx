@@ -10,10 +10,12 @@ export const FeaturesSection = () => {
   const featureList = [
     { icon: "Gavel", key: "penal" },
     { icon: "Building2", key: "business" },
+    { icon: "Banknote", key: "financial" },
     { icon: "Landmark", key: "public" },
     { icon: "ShieldCheck", key: "compliance" },
-    { icon: "HeartHandshake", key: "victims" },
     { icon: "Newspaper", key: "press" },
+    { icon: "HeartHandshake", key: "victims" },
+    { icon: "FileText", key: "contracts" },
   ];
 
   return (
@@ -31,7 +33,7 @@ export const FeaturesSection = () => {
           {t("description")}
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {featureList.map(({ icon, key }) => (
             <Card
               key={key}

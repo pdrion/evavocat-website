@@ -208,10 +208,12 @@ export const ContactSection = () => {
                           <SelectContent>
                             <SelectItem value="penal">{t("subjects.penal")}</SelectItem>
                             <SelectItem value="business">{t("subjects.business")}</SelectItem>
+                            <SelectItem value="financial">{t("subjects.financial")}</SelectItem>
                             <SelectItem value="public">{t("subjects.public")}</SelectItem>
                             <SelectItem value="compliance">{t("subjects.compliance")}</SelectItem>
                             <SelectItem value="victims">{t("subjects.victims")}</SelectItem>
                             <SelectItem value="press">{t("subjects.press")}</SelectItem>
+                            <SelectItem value="contracts">{t("subjects.contracts")}</SelectItem>
                             <SelectItem value="domestic">{t("subjects.domestic")}</SelectItem>
                             <SelectItem value="other">{t("subjects.other")}</SelectItem>
                           </SelectContent>

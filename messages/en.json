@@ -17,8 +17,10 @@
     "label": "About",
     "title": "Eva Ballin, Attorney in Nice",
     "description1": "Eva Ballin is an attorney at the Nice Bar. She practices primarily in criminal law and white-collar crime, where law meets real life, its tensions, its urgencies, its risks. For her, criminal procedure is not just a framework: it is a field of precision, where every word counts, where every mistake can be costly, and where every irregularity must be identified, discussed, and challenged.",
-    "description2": "Trained for two years at the Institut de Sciences pénales d'Aix-en-Provence (graduated with honors), she holds two Masters degrees in business law and financial crime, as well as a DESU in economic criminal risk. She enriched this background with experience in compliance and anti-money laundering at a Big Four firm in Luxembourg, before joining a white-collar crime law firm in Monaco. Trained by Maître Joseph Cohen Sabban, Maîtres Steeve Ruben and Marie Violleau in Paris, then by Maître Sophie Jonquet in Nice.",
-    "quote": "\"Courage, for a lawyer, is essential, without which nothing else matters: talent, culture, knowledge of the law, everything is useful to a lawyer. But without courage, at the decisive moment, there are only words, sentences that follow one another, that shine and die.\"",
+    "description2": "Trained for two years at the Institut de Sciences pénales d'Aix-en-Provence, graduating with honors, she also holds two Masters degrees — in business law and financial crime — as well as a DESU in economic criminal risk. She enriched this academic background with experience in compliance and anti-money laundering at a Big Four firm in Luxembourg, before joining a white-collar crime law firm in Monaco.",
+    "description3": "She was trained by Maître Joseph COHEN SABBAN as well as Maîtres Steeve RUBEN and Marie VIOLLEAU in Paris, then by Maître Sophie JONQUET in Nice. Having also lived in Singapore and Dubai, Eva Ballin possesses an international perspective that enriches her practice. She works equally well in French and English, with the same rigor and standards.",
+    "description4": "Since January 2025, she has been practicing at a Nice firm primarily dedicated to criminal law, as a collaborating attorney, while developing her own practice. She is often described as attentive, human, and tenacious. She approaches each case as a battle worth fighting to the end, with method, loyalty, and determination.",
+    "quote": "\"Courage, for a lawyer, is essential, without which nothing else matters: talent, culture, knowledge of the law, everything is useful to a lawyer. But without courage, at the decisive moment, there are only words, sentences that follow one another, that shine and die. Defending is not setting off fireworks: the beautiful blue, the beautiful red, and the bouquet that rises, explodes and falls back into a thousand flowers. Then silence and night return and nothing remains.\"",
     "quoteAuthor": "Robert Badinter",
     "expertise": {
       "title": "Excellence in training",
@@ -34,7 +36,7 @@
     },
     "rigorous": {
       "title": "Tenacious and rigorous",
-      "description": "Every case is a battle that deserves to be fought to the end, with method, loyalty and determination."
+      "description": "Every case is a battle worth fighting to the end, with method, loyalty and determination."
     }
   },
   "expertises": {
@@ -43,11 +45,15 @@
     "description": "Member of the Nice Bar, practicing throughout France in all forms of criminal law.",
     "penal": {
       "title": "General Criminal Law",
-      "description": "Violence, sexual offenses, theft, fraud, breach of trust, harassment, threats, homicide, murder. Assistance from police custody to sentence enforcement before all criminal courts."
+      "description": "Offenses against persons and property: violence, sexual offenses, theft, fraud, breach of trust, harassment, threats, kidnapping, false imprisonment, homicide, murder. Assistance from police custody to sentence enforcement before all criminal courts."
     },
     "business": {
-      "title": "White-Collar Crime",
-      "description": "Misuse of corporate assets, money laundering, tax fraud, fraud, embezzlement of public funds, corruption, undeclared work, moral or sexual harassment, labor law violations."
+      "title": "White-Collar Crime & Labor Law",
+      "description": "Support for executives, managers, entrepreneurs and employees facing criminal prosecution: misuse of corporate assets, undeclared work, moral or sexual harassment, labor law violations, regulatory offenses."
+    },
+    "financial": {
+      "title": "Financial Criminal Law",
+      "description": "Defense and civil party representation in financial crime cases: money laundering, fraud, embezzlement, breach of trust, securities offenses. Strategic vision from compliance experience."
     },
     "public": {
       "title": "Public Criminal Law",
@@ -55,15 +61,19 @@
     },
     "compliance": {
       "title": "Compliance and CSR",
-      "description": "Prevention and management of criminal risks, implementation of compliance programs, internal investigations, social responsibility and ethics policies."
+      "description": "Prevention and management of criminal risks: implementation of compliance programs, internal investigations, development of social responsibility and ethics policies."
+    },
+    "press": {
+      "title": "Press Law",
+      "description": "Defamation, insult, reputation damage and press offenses, in defense as well as victim representation."
     },
     "victims": {
       "title": "Victims' Rights",
       "description": "Support at every stage of criminal proceedings, from complaint to hearing, with attention to recognition of their experience and compensation for damages."
     },
-    "press": {
-      "title": "Press Law",
-      "description": "Defamation, insult, reputation damage and press offenses, in defense as well as victim representation."
+    "contracts": {
+      "title": "Contract Law",
+      "description": "Assistance in contractual matters: disputes related to the performance or termination of civil and commercial contracts."
     }
   },
   "domestic": {
@@ -126,10 +136,12 @@
     "subjects": {
       "penal": "General Criminal Law",
       "business": "White-Collar Crime",
+      "financial": "Financial Criminal Law",
       "public": "Public Criminal Law",
       "compliance": "Compliance and CSR",
       "victims": "Victims' Rights",
       "press": "Press Law",
+      "contracts": "Contract Law",
       "domestic": "Domestic Violence",
       "other": "Other"
     }
