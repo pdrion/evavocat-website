@@ -28,11 +28,10 @@ export const Navbar = () => {
   const t = useTranslations("nav");
   const pathname = usePathname();
 
-  const currentLocale = pathname.startsWith("/en") ? "en" : "fr";
-  const otherLocale = currentLocale === "fr" ? "en" : "fr";
-  const switchPath = currentLocale === "fr"
-    ? `/en${pathname === "/" ? "" : pathname}`
-    : pathname === "/en" ? "/" : pathname.replace("/en", "");
+  const isEnglish = pathname === "/en" || pathname.startsWith("/en/");
+  const currentLocale = isEnglish ? "en" : "fr";
+  const otherLocale = isEnglish ? "fr" : "en";
+  const switchPath = isEnglish ? "/" : "/en";
 
   const routeList = [
     { href: "#presentation", label: t("presentation") },
