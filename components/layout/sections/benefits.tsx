@@ -73,15 +73,13 @@ export const BenefitsSection = () => {
         </div>
 
         <div className="order-1 lg:order-2 mb-8 lg:mb-0">
-          <div className="relative">
-            <Image
-              src="/photo-serment.png"
-              alt="Eva Ballin - Prestation de serment"
-              width={500}
-              height={600}
-              className="relative shadow-2xl border-4 border-[#112751]/10 dark:border-white/10"
-            />
-          </div>
+          <Image
+            src="/photo-serment.png"
+            alt="Eva Ballin - Prestation de serment"
+            width={500}
+            height={600}
+            className="shadow-2xl border-4 border-[#112751]/10 dark:border-white/10"
+          />
         </div>
       </div>
     </section>

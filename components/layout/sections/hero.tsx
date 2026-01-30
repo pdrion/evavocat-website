@@ -56,21 +56,16 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right content - Portrait */}
-          <div className="relative flex justify-center lg:justify-end">
-            <div className="relative">
-              <div className="relative overflow-hidden border-4 border-[#112751]/10 dark:border-white/10">
-                <Image
-                  src="/portrait.jpg"
-                  alt="Eva Ballin - Avocat au Barreau de Nice"
-                  width={450}
-                  height={550}
-                  className="object-cover"
-                  priority
-                />
-              </div>
-
-            </div>
+          {/* Portrait */}
+          <div className="flex justify-center lg:justify-end">
+            <Image
+              src="/portrait.jpg"
+              alt="Eva Ballin - Avocat au Barreau de Nice"
+              width={450}
+              height={550}
+              className="object-cover border-4 border-[#112751]/10 dark:border-white/10"
+              priority
+            />
           </div>
         </div>
       </div>

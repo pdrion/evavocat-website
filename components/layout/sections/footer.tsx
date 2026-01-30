@@ -47,11 +47,6 @@ export const FooterSection = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#violences-conjugales" className="text-muted-foreground hover:text-primary transition-colors">
-                  {nav("violences")}
-                </Link>
-              </li>
-              <li>
                 <Link href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
                   {nav("contact")}
                 </Link>

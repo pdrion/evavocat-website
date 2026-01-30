@@ -29,7 +29,6 @@ export const Navbar = () => {
   const pathname = usePathname();
 
   const isEnglish = pathname === "/en" || pathname.startsWith("/en/");
-  const currentLocale = isEnglish ? "en" : "fr";
   const otherLocale = isEnglish ? "fr" : "en";
   const switchPath = isEnglish ? "/" : "/en";
 
@@ -47,8 +46,7 @@ export const Navbar = () => {
           alt="Eva Ballin - Avocat"
           width={55}
           height={55}
-          className=""
-        />
+                  />
         <div className="hidden sm:block">
           <span className="block text-lg font-semibold text-[#112751] dark:text-white">
             Eva Ballin
@@ -82,8 +80,7 @@ export const Navbar = () => {
                       alt="Eva Ballin - Avocat"
                       width={40}
                       height={40}
-                      className=""
-                    />
+                                          />
                     <div>
                       <span className="block text-lg font-semibold text-[#112751] dark:text-white">
                         Eva Ballin
