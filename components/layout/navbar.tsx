@@ -36,7 +36,6 @@ export const Navbar = () => {
   const routeList = [
     { href: "#presentation", label: t("presentation") },
     { href: "#expertises", label: t("expertises") },
-    { href: "#violences-conjugales", label: t("violences") },
     { href: "#contact", label: t("contact") },
   ];
 
@@ -46,8 +45,8 @@ export const Navbar = () => {
         <Image
           src="/logo.png"
           alt="Eva Ballin - Avocat"
-          width={40}
-          height={40}
+          width={55}
+          height={55}
           className=""
         />
         <div className="hidden sm:block">

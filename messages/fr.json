@@ -2,7 +2,6 @@
   "nav": {
     "presentation": "Présentation",
     "expertises": "Compétences",
-    "violences": "Violences conjugales",
     "contact": "Contact",
     "appointment": "Prendre RDV"
   },
@@ -10,7 +9,7 @@
     "subtitle": "Avocat au Barreau de Nice",
     "name": "Eva Ballin",
     "tagline": "Là où le droit rencontre la vie réelle",
-    "description": "Droit pénal et droit pénal des affaires. La procédure pénale est un terrain de précision, où chaque mot compte, où chaque erreur peut coûter cher, et où chaque irrégularité doit être relevée, discutée, combattue.",
+    "description": "Droit pénal et droit pénal des affaires. Inscrite au Barreau de Nice, j'interviens sur l'ensemble du territoire français.",
     "cta": "Prendre rendez-vous",
     "discover": "Découvrir mes compétences"
   },
@@ -18,8 +17,8 @@
     "label": "Présentation",
     "title": "Eva Ballin, Avocat à Nice",
     "description1": "Eva Ballin est avocat au Barreau de Nice. Elle exerce principalement en droit pénal et droit pénal des affaires, là où le droit rencontre la vie réelle, ses tensions, ses urgences, ses risques. Pour elle, la procédure pénale n'est pas un simple cadre : c'est un terrain de précision, où chaque mot compte, où chaque erreur peut coûter cher, et où chaque irrégularité doit être relevée, discutée, combattue.",
-    "description2": "Formée pendant deux ans à l'Institut de Sciences pénales d'Aix-en-Provence (mention Bien), titulaire de deux Masters en droit des affaires et criminalité financière, ainsi que d'un DESU en risque pénal économique. Elle a enrichi ce parcours par une expérience en compliance et lutte contre le blanchiment au sein d'un Big Four au Luxembourg, avant d'intégrer un cabinet en droit pénal des affaires à Monaco.",
-    "quote": "« Le courage, pour un avocat, c'est l'essentiel, ce sans quoi le reste ne compte pas. »",
+    "description2": "Formée pendant deux ans à l'Institut de Sciences pénales d'Aix-en-Provence (mention Bien), titulaire de deux Masters en droit des affaires et criminalité financière, ainsi que d'un DESU en risque pénal économique. Elle a enrichi ce parcours par une expérience en compliance et lutte contre le blanchiment au sein d'un Big Four au Luxembourg, avant d'intégrer un cabinet en droit pénal des affaires à Monaco. Formée par Maître Joseph Cohen Sabban, Maîtres Steeve Ruben et Marie Violleau à Paris, puis par Maître Sophie Jonquet à Nice.",
+    "quote": "« Le courage, pour un avocat, c'est l'essentiel, ce sans quoi le reste ne compte pas : talent, culture, connaissance du droit, tout est utile à l'avocat. Mais sans le courage, au moment décisif, il n'y a plus que des mots, des phrases, qui se suivent, qui brillent et qui meurent. »",
     "quoteAuthor": "Robert Badinter",
     "expertise": {
       "title": "Formation d'excellence",
@@ -31,36 +30,36 @@
     },
     "human": {
       "title": "À l'écoute et humaine",
-      "description": "Chaque dossier commence par une histoire. L'écoute est la première arme de la défense. La parole, la seconde."
+      "description": "Un dossier ne commence jamais par un numéro : il commence par une histoire. L'écoute est la première arme de la défense. La parole, la seconde."
     },
     "rigorous": {
       "title": "Tenace et rigoureuse",
-      "description": "Chaque combat mérite d'être mené jusqu'au bout, avec méthode, loyauté et détermination."
+      "description": "Chaque dossier est un combat qui mérite d'être mené jusqu'au bout, avec méthode, loyauté et détermination."
     }
   },
   "expertises": {
     "label": "Compétences",
     "title": "Domaines d'intervention",
-    "description": "Une pratique centrée sur le droit pénal sous toutes ses formes, de la défense à l'accompagnement des victimes.",
+    "description": "Inscrite au Barreau de Nice, j'interviens sur l'ensemble du territoire français en droit pénal sous toutes ses formes.",
     "penal": {
       "title": "Droit pénal général",
-      "description": "Violences, infractions sexuelles, vol, escroquerie, abus de confiance, harcèlement, homicide. Assistance de la garde à vue jusqu'à la Cour d'assises."
+      "description": "Violences, infractions sexuelles, vol, escroquerie, abus de confiance, harcèlement, menaces, homicide, assassinat. Assistance de la garde à vue jusqu'à l'exécution des peines devant toutes les juridictions pénales."
     },
     "business": {
       "title": "Droit pénal des affaires",
-      "description": "Abus de biens sociaux, travail dissimulé, harcèlement moral ou sexuel, infractions au droit du travail. Accompagnement des dirigeants, cadres et salariés."
+      "description": "Abus de biens sociaux, blanchiment, fraude fiscale, escroquerie, détournement de fonds publics, corruption, travail dissimulé, harcèlement moral ou sexuel, infractions au droit du travail."
     },
-    "financial": {
-      "title": "Droit pénal financier",
-      "description": "Blanchiment de capitaux, escroquerie, fraude, détournement de fonds, infractions boursières. Vision stratégique issue de l'expérience en compliance."
+    "public": {
+      "title": "Droit pénal public",
+      "description": "Infractions impliquant des personnes publiques ou acteurs institutionnels : corruption, prise illégale d'intérêts, favoritisme, détournement de fonds publics."
+    },
+    "compliance": {
+      "title": "Conformité et RSE",
+      "description": "Prévention et gestion des risques pénaux, mise en place de dispositifs de conformité, investigations internes, politiques de responsabilité sociale et éthique."
     },
     "victims": {
       "title": "Droit des victimes",
-      "description": "Accompagnement à chaque étape, de la plainte à l'audience, avec attention portée à la reconnaissance du vécu et à la réparation du préjudice."
-    },
-    "domestic": {
-      "title": "Violences conjugales",
-      "description": "Urgence, protection et respect de la parole des victimes. Plainte, ordonnance de protection, procédures de séparation."
+      "description": "Accompagnement à chaque étape de la procédure pénale, de la plainte à l'audience, avec attention portée à la reconnaissance du vécu et à la réparation du préjudice."
     },
     "press": {
       "title": "Droit de la presse",
@@ -77,13 +76,33 @@
     "servicesTitle": "Accompagnement",
     "services": {
       "1": "Rédaction et dépôt de plainte",
-      "2": "Constitution du dossier pénal",
-      "3": "Mesures d'éloignement",
-      "4": "Ordonnance de protection (JAF)",
-      "5": "Procédures de divorce ou séparation",
-      "6": "Accompagnement jusqu'à l'audience"
+      "2": "Mesures d'éloignement et ordonnance de protection",
+      "3": "Saisine du juge aux affaires familiales",
+      "4": "Procédures de divorce ou de séparation",
+      "5": "Accompagnement jusqu'à l'audience"
     },
     "emergency": "En cas de danger immédiat, contactez le 17 (Police) ou le 3919 (Violences Femmes Info)."
+  },
+  "fees": {
+    "label": "Honoraires",
+    "title": "Transparence des honoraires",
+    "description": "Les honoraires sont fixés en toute transparence, selon la nature et la complexité du dossier. Une convention d'honoraires est systématiquement établie avant toute intervention.",
+    "consultation": {
+      "title": "Consultation",
+      "description": "Premier rendez-vous pour analyser votre situation et vous conseiller sur la stratégie à adopter."
+    },
+    "forfait": {
+      "title": "Forfait",
+      "description": "Pour les procédures dont l'étendue peut être anticipée, un forfait global peut être proposé."
+    },
+    "hourly": {
+      "title": "Taux horaire",
+      "description": "Pour les dossiers nécessitant un suivi régulier ou dont l'évolution est incertaine."
+    },
+    "legal_aid": {
+      "title": "Aide juridictionnelle",
+      "description": "Possibilité d'intervention au titre de l'aide juridictionnelle sous conditions de ressources."
+    }
   },
   "contact": {
     "label": "Contact",
@@ -107,15 +126,16 @@
     "subjects": {
       "penal": "Droit pénal général",
       "business": "Droit pénal des affaires",
-      "financial": "Droit pénal financier",
+      "public": "Droit pénal public",
+      "compliance": "Conformité et RSE",
       "victims": "Droit des victimes",
-      "domestic": "Violences conjugales",
       "press": "Droit de la presse",
+      "domestic": "Violences conjugales",
       "other": "Autre"
     }
   },
   "footer": {
-    "description": "Avocat au Barreau de Nice, exerçant principalement en droit pénal et droit pénal des affaires. Accompagnement en français et en anglais.",
+    "description": "Avocat au Barreau de Nice, exerçant principalement en droit pénal et droit pénal des affaires. Intervention sur l'ensemble du territoire français, en français et en anglais.",
     "navigation": "Navigation",
     "contact": "Contact",
     "rights": "Tous droits réservés.",

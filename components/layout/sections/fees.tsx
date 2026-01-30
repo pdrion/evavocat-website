@@ -1,23 +1,20 @@
 "use client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Icon } from "@/components/ui/icon";
-import { icons } from "lucide-react";
+import { MessageSquare, Calculator, Clock, Scale } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-export const FeaturesSection = () => {
-  const t = useTranslations("expertises");
+export const FeesSection = () => {
+  const t = useTranslations("fees");
 
-  const featureList = [
-    { icon: "Gavel", key: "penal" },
-    { icon: "Building2", key: "business" },
-    { icon: "Landmark", key: "public" },
-    { icon: "ShieldCheck", key: "compliance" },
-    { icon: "HeartHandshake", key: "victims" },
-    { icon: "Newspaper", key: "press" },
+  const feeTypes = [
+    { icon: MessageSquare, key: "consultation" },
+    { icon: Calculator, key: "forfait" },
+    { icon: Clock, key: "hourly" },
+    { icon: Scale, key: "legal_aid" },
   ];
 
   return (
-    <section id="expertises" className="py-24 sm:py-32 bg-muted/30">
+    <section id="honoraires" className="py-24 sm:py-32 bg-muted/30">
       <div className="container">
         <p className="text-sm text-primary text-center mb-2 tracking-widest uppercase font-medium">
           {t("label")}
@@ -31,25 +28,20 @@ export const FeaturesSection = () => {
           {t("description")}
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {featureList.map(({ icon, key }) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {feeTypes.map(({ icon: Icon, key }) => (
             <Card
               key={key}
               className="h-full bg-background border border-border/50 hover:border-primary/30 hover:shadow-lg transition-all duration-300"
             >
               <CardHeader className="flex flex-col items-center text-center">
                 <div className="bg-[#112751] dark:bg-primary/20 p-4 mb-4">
-                  <Icon
-                    name={icon as keyof typeof icons}
-                    size={28}
-                    color="hsl(var(--primary))"
-                    className="text-primary"
-                  />
+                  <Icon className="h-7 w-7 text-primary" />
                 </div>
-                <CardTitle className="text-xl">{t(`${key}.title`)}</CardTitle>
+                <CardTitle className="text-lg">{t(`${key}.title`)}</CardTitle>
               </CardHeader>
 
-              <CardContent className="text-muted-foreground text-center">
+              <CardContent className="text-muted-foreground text-center text-sm">
                 {t(`${key}.description`)}
               </CardContent>
             </Card>

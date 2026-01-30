@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 export const ServicesSection = () => {
   const t = useTranslations("domestic");
 
-  const serviceKeys = ["1", "2", "3", "4", "5", "6"];
+  const serviceKeys = ["1", "2", "3", "4", "5"];
 
   return (
     <section id="violences-conjugales" className="container py-24 sm:py-32">
