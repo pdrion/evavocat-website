@@ -16,35 +16,54 @@ export const BenefitsSection = () => {
   ];
 
   return (
-    <section id="presentation" className="container py-24 sm:py-32">
-      <div className="grid lg:grid-cols-2 place-items-center lg:gap-16">
-        <div className="order-2 lg:order-1">
-          <p className="text-sm text-primary mb-2 tracking-widest uppercase font-medium">
-            {t("label")}
-          </p>
+    <section id="presentation" className="py-24 sm:py-32">
+      <div className="container">
+        {/* Présentation + Photo */}
+        <div className="grid lg:grid-cols-2 place-items-center lg:gap-16 mb-16">
+          <div className="order-2 lg:order-1">
+            <p className="text-sm text-primary mb-2 tracking-widest uppercase font-medium">
+              {t("label")}
+            </p>
+            <h2 className="text-3xl md:text-4xl mb-4 text-[#112751] dark:text-white">
+              {t("title")}
+            </h2>
+            <p className="text-lg text-muted-foreground mb-4">
+              {t("description1")}
+            </p>
+            <p className="text-lg text-muted-foreground mb-4">
+              {t("description2")}
+            </p>
+            <p className="text-lg text-muted-foreground mb-4">
+              {t("description3")}
+            </p>
+            <p className="text-lg text-muted-foreground">
+              {t("description4")}
+            </p>
+          </div>
 
-          <h2 className="text-3xl md:text-4xl mb-4 text-[#112751] dark:text-white">
-            {t("title")}
-          </h2>
-          <p className="text-lg text-muted-foreground mb-4">
-            {t("description1")}
-          </p>
-          <p className="text-lg text-muted-foreground mb-4">
-            {t("description2")}
-          </p>
-          <p className="text-lg text-muted-foreground mb-4">
-            {t("description3")}
-          </p>
-          <p className="text-lg text-muted-foreground mb-8">
-            {t("description4")}
-          </p>
+          <div className="order-1 lg:order-2 mb-8 lg:mb-0">
+            <Image
+              src="/photo-serment.png"
+              alt="Eva Ballin - Prestation de serment"
+              width={500}
+              height={600}
+              className="shadow-2xl border-4 border-[#112751]/10 dark:border-white/10"
+            />
+          </div>
+        </div>
 
-          <blockquote className="border-l-4 border-primary pl-4 mb-8 italic text-muted-foreground">
-            <p className="text-base mb-2">{t("quote")}</p>
-            <footer className="text-sm font-medium text-[#112751] dark:text-white">— {t("quoteAuthor")}</footer>
+        {/* Citation + Qualités - pleine largeur */}
+        <div className="border-t border-[#112751]/10 dark:border-white/10 pt-16">
+          <blockquote className="max-w-4xl mx-auto text-center mb-12">
+            <p className="text-lg md:text-xl italic text-muted-foreground mb-4">
+              {t("quote")}
+            </p>
+            <footer className="text-base font-medium text-[#112751] dark:text-white">
+              — {t("quoteAuthor")}
+            </footer>
           </blockquote>
 
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefitList.map(({ icon, key }) => (
               <Card
                 key={key}
@@ -63,23 +82,12 @@ export const BenefitsSection = () => {
                     <CardTitle className="text-base">{t(`${key}.title`)}</CardTitle>
                   </div>
                 </CardHeader>
-
                 <CardContent className="text-sm text-muted-foreground">
                   {t(`${key}.description`)}
                 </CardContent>
               </Card>
             ))}
           </div>
-        </div>
-
-        <div className="order-1 lg:order-2 mb-8 lg:mb-0">
-          <Image
-            src="/photo-serment.png"
-            alt="Eva Ballin - Prestation de serment"
-            width={500}
-            height={600}
-            className="shadow-2xl border-4 border-[#112751]/10 dark:border-white/10"
-          />
         </div>
       </div>
     </section>
