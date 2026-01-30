@@ -1,7 +1,7 @@
 {
   "nav": {
     "presentation": "About",
-    "expertises": "Expertise",
+    "expertises": "Practice Areas",
     "violences": "Domestic Violence",
     "contact": "Contact",
     "appointment": "Book Now"
@@ -9,79 +9,79 @@
   "hero": {
     "subtitle": "Attorney at the Nice Bar",
     "name": "Eva Ballin",
-    "tagline": "Your defense, our commitment",
-    "description": "Specialized in criminal law, white-collar crime, and victims' rights. Recognized expertise in supporting victims of domestic and family violence.",
+    "tagline": "Where law meets real life",
+    "description": "Criminal law and white-collar crime. Criminal procedure is a field of precision, where every word counts, where every mistake can be costly, and where every irregularity must be identified, discussed, and challenged.",
     "cta": "Book an appointment",
-    "discover": "Discover my expertise",
-    "years": "Years",
-    "experience": "of experience"
+    "discover": "Discover my practice areas"
   },
   "about": {
     "label": "About",
-    "title": "Eva Ballin, your lawyer in Nice",
-    "description1": "As an attorney at the Nice Bar, I put my expertise at the service of my clients with rigor and humanity. Specialized in criminal law, white-collar crime, and victims' rights, I assist individuals and businesses with their most complex legal issues.",
-    "description2": "My international background has allowed me to develop a global vision of law and an essential adaptability in an ever-evolving legal world.",
+    "title": "Eva Ballin, Attorney in Nice",
+    "description1": "Eva Ballin is an attorney at the Nice Bar. She practices primarily in criminal law and white-collar crime, where law meets real life, its tensions, its urgencies, its risks. For her, criminal procedure is not just a framework: it is a field of precision, where every word counts, where every mistake can be costly, and where every irregularity must be identified, discussed, and challenged.",
+    "description2": "Trained for two years at the Institut de Sciences pénales d'Aix-en-Provence (graduated with honors), she holds two Masters degrees in business law and financial crime, as well as a DESU in economic criminal risk. She enriched this background with experience in compliance and anti-money laundering at a Big Four firm in Luxembourg, before joining a white-collar crime law firm in Monaco.",
+    "quote": "\"Courage, for a lawyer, is essential, without which nothing else matters.\"",
+    "quoteAuthor": "Robert Badinter",
     "expertise": {
-      "title": "Recognized expertise",
-      "description": "Over 15 years of experience in criminal law with specialization in victims' rights and domestic violence."
+      "title": "Excellence in training",
+      "description": "Institut de Sciences pénales d'Aix-en-Provence, two Masters degrees and a DESU in economic criminal risk."
     },
     "international": {
       "title": "International dimension",
-      "description": "Experience in Singapore, Dubai, Luxembourg, and Monaco. Fluent practice in French and English."
+      "description": "Experience in Singapore, Dubai, Luxembourg and Monaco. Fluent practice in French and English."
     },
     "human": {
-      "title": "Human approach",
-      "description": "Attentive listening and personalized support. Each case is handled with the utmost care."
+      "title": "Attentive and human",
+      "description": "Every case begins with a story. Listening is the first weapon of defense. Speech is the second."
     },
     "rigorous": {
-      "title": "Rigorous defense",
-      "description": "Total commitment to defending your rights and interests, with meticulous preparation of each case."
+      "title": "Tenacious and rigorous",
+      "description": "Every battle deserves to be fought to the end, with method, loyalty and determination."
     }
   },
   "expertises": {
-    "label": "Areas of Practice",
-    "title": "My Expertise",
-    "description": "With over 15 years of experience in criminal law, I support you in all aspects of your defense or your rights as a victim.",
+    "label": "Practice Areas",
+    "title": "Areas of Practice",
+    "description": "A practice centered on criminal law in all its forms, from defense to victim support.",
     "penal": {
-      "title": "Criminal Law",
-      "description": "Defense of individuals involved in criminal proceedings. Assistance during police custody, immediate appearance, investigation, and criminal court hearings."
+      "title": "General Criminal Law",
+      "description": "Violence, sexual offenses, theft, fraud, breach of trust, harassment, homicide. Assistance from police custody to the Assize Court."
     },
     "business": {
       "title": "White-Collar Crime",
-      "description": "Support for executives and companies facing economic offenses: misuse of corporate assets, fraud, breach of trust, money laundering."
+      "description": "Misuse of corporate assets, undeclared work, moral or sexual harassment, labor law violations. Support for executives, managers and employees."
     },
     "financial": {
       "title": "Financial Criminal Law",
-      "description": "Expertise in stock market offenses, tax fraud, corruption, and financial regulation violations."
+      "description": "Money laundering, fraud, embezzlement, securities offenses. Strategic vision from compliance experience."
     },
     "victims": {
       "title": "Victims' Rights",
-      "description": "Support for victims of criminal offenses in their legal proceedings. Civil party constitution and obtaining compensation."
+      "description": "Support at every stage, from complaint to hearing, with attention to recognition of their experience and compensation for damages."
     },
     "domestic": {
       "title": "Domestic Violence",
-      "description": "Specialized support for victims of domestic violence. Protection orders, complaints, support throughout the procedure."
+      "description": "Urgency, protection and respect for victims' voices. Complaints, protection orders, separation procedures."
     },
-    "family": {
-      "title": "Family Law",
-      "description": "Divorce, separation, child custody, alimony. Family mediation and amicable dispute resolution."
+    "press": {
+      "title": "Press Law",
+      "description": "Defamation, insult, reputation damage and press offenses, in defense as well as victim representation."
     }
   },
   "domestic": {
-    "label": "Specialization",
-    "title": "Domestic and Family Violence",
-    "description1": "Domestic violence is a painful reality affecting thousands of people. As a specialized attorney, I am committed to supporting victims with humanity and professionalism.",
-    "description2": "Whether you are a victim of physical, psychological, economic, or sexual violence, I help you assert your rights and protect yourself and your children.",
-    "description3": "My approach is based on listening, respecting your pace, and implementing a legal strategy tailored to your situation.",
+    "label": "Focus",
+    "title": "Domestic Violence",
+    "description1": "Eva Ballin handles domestic violence situations with a particular requirement: urgency, protection and respect for victims' voices.",
+    "description2": "These cases require acting quickly, but never lightly. She supports victims in a secure environment, listening to their choices, while building procedural strategies designed to protect them concretely.",
+    "description3": "Her goal is twofold: ensure immediate safety and enable the person she supports to regain control of their life, legally and humanly.",
     "cta": "Confidential consultation",
-    "servicesTitle": "My support",
+    "servicesTitle": "Support",
     "services": {
-      "1": "Personalized listening and support",
-      "2": "Filing complaints and reports",
-      "3": "Protection order requests",
-      "4": "Civil party constitution",
-      "5": "Court hearing support",
-      "6": "Coordination with victim support organizations"
+      "1": "Drafting and filing complaints",
+      "2": "Building the criminal case file",
+      "3": "Restraining orders",
+      "4": "Protection orders (Family Court)",
+      "5": "Divorce or separation procedures",
+      "6": "Support through hearings"
     },
     "emergency": "If you are in immediate danger, contact 17 (Police) or 3919 (Women Violence Info)."
   },
@@ -105,16 +105,17 @@
     "messagePlaceholder": "Briefly describe your situation...",
     "send": "Send message",
     "subjects": {
-      "penal": "Criminal Law",
+      "penal": "General Criminal Law",
       "business": "White-Collar Crime",
+      "financial": "Financial Criminal Law",
       "victims": "Victims' Rights",
       "domestic": "Domestic Violence",
-      "family": "Family Law",
+      "press": "Press Law",
       "other": "Other"
     }
   },
   "footer": {
-    "description": "Law firm specialized in criminal law, white-collar crime, and victims' rights. Recognized expertise in domestic and family violence.",
+    "description": "Attorney at the Nice Bar, practicing primarily in criminal law and white-collar crime. Services in French and English.",
     "navigation": "Navigation",
     "contact": "Contact",
     "rights": "All rights reserved.",

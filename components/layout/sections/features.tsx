@@ -13,7 +13,7 @@ export const FeaturesSection = () => {
     { icon: "Banknote", key: "financial" },
     { icon: "HeartHandshake", key: "victims" },
     { icon: "ShieldAlert", key: "domestic" },
-    { icon: "Users", key: "family" },
+    { icon: "Newspaper", key: "press" },
   ];
 
   return (

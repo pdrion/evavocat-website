@@ -1,94 +1,94 @@
 {
   "nav": {
     "presentation": "Présentation",
-    "expertises": "Expertises",
+    "expertises": "Compétences",
     "violences": "Violences conjugales",
     "contact": "Contact",
-    "appointment": "Rendez-vous"
+    "appointment": "Prendre RDV"
   },
   "hero": {
     "subtitle": "Avocat au Barreau de Nice",
     "name": "Eva Ballin",
-    "tagline": "Votre défense, notre engagement",
-    "description": "Spécialisée en droit pénal, droit pénal des affaires et droit des victimes. Une expertise reconnue dans l'accompagnement des victimes de violences conjugales et intrafamiliales.",
+    "tagline": "Là où le droit rencontre la vie réelle",
+    "description": "Droit pénal et droit pénal des affaires. La procédure pénale est un terrain de précision, où chaque mot compte, où chaque erreur peut coûter cher, et où chaque irrégularité doit être relevée, discutée, combattue.",
     "cta": "Prendre rendez-vous",
-    "discover": "Découvrir mes expertises",
-    "years": "Années",
-    "experience": "d'expérience"
+    "discover": "Découvrir mes compétences"
   },
   "about": {
-    "label": "À propos",
-    "title": "Eva Ballin, votre avocat à Nice",
-    "description1": "Avocate au Barreau de Nice, je mets mon expertise au service de mes clients avec rigueur et humanité. Spécialisée en droit pénal, droit pénal des affaires et droit des victimes, j'accompagne particuliers et entreprises dans leurs problématiques juridiques les plus complexes.",
-    "description2": "Mon parcours international m'a permis de développer une vision globale du droit et une capacité d'adaptation essentielle dans un monde juridique en constante évolution.",
+    "label": "Présentation",
+    "title": "Eva Ballin, Avocat à Nice",
+    "description1": "Eva Ballin est avocat au Barreau de Nice. Elle exerce principalement en droit pénal et droit pénal des affaires, là où le droit rencontre la vie réelle, ses tensions, ses urgences, ses risques. Pour elle, la procédure pénale n'est pas un simple cadre : c'est un terrain de précision, où chaque mot compte, où chaque erreur peut coûter cher, et où chaque irrégularité doit être relevée, discutée, combattue.",
+    "description2": "Formée pendant deux ans à l'Institut de Sciences pénales d'Aix-en-Provence (mention Bien), titulaire de deux Masters en droit des affaires et criminalité financière, ainsi que d'un DESU en risque pénal économique. Elle a enrichi ce parcours par une expérience en compliance et lutte contre le blanchiment au sein d'un Big Four au Luxembourg, avant d'intégrer un cabinet en droit pénal des affaires à Monaco.",
+    "quote": "« Le courage, pour un avocat, c'est l'essentiel, ce sans quoi le reste ne compte pas. »",
+    "quoteAuthor": "Robert Badinter",
     "expertise": {
-      "title": "Expertise reconnue",
-      "description": "Plus de 15 ans d'expérience en droit pénal avec une spécialisation en droit des victimes et violences conjugales."
+      "title": "Formation d'excellence",
+      "description": "Institut de Sciences pénales d'Aix-en-Provence, deux Masters et un DESU en risque pénal économique."
     },
     "international": {
       "title": "Dimension internationale",
-      "description": "Expérience à Singapour, Dubaï, Luxembourg et Monaco. Pratique courante en français et anglais."
+      "description": "Expérience à Singapour, Dubaï, Luxembourg et Monaco. Pratique courante en français et en anglais."
     },
     "human": {
-      "title": "Approche humaine",
-      "description": "Écoute attentive et accompagnement personnalisé. Chaque dossier est traité avec le plus grand soin."
+      "title": "À l'écoute et humaine",
+      "description": "Chaque dossier commence par une histoire. L'écoute est la première arme de la défense. La parole, la seconde."
     },
     "rigorous": {
-      "title": "Défense rigoureuse",
-      "description": "Engagement total dans la défense de vos droits et intérêts, avec une préparation minutieuse de chaque dossier."
+      "title": "Tenace et rigoureuse",
+      "description": "Chaque combat mérite d'être mené jusqu'au bout, avec méthode, loyauté et détermination."
     }
   },
   "expertises": {
-    "label": "Domaines d'intervention",
-    "title": "Mes expertises",
-    "description": "Forte d'une expérience de plus de 15 ans en droit pénal, je vous accompagne dans tous les aspects de votre défense ou de vos droits en tant que victime.",
+    "label": "Compétences",
+    "title": "Domaines d'intervention",
+    "description": "Une pratique centrée sur le droit pénal sous toutes ses formes, de la défense à l'accompagnement des victimes.",
     "penal": {
-      "title": "Droit pénal",
-      "description": "Défense des personnes mises en cause dans des procédures pénales. Assistance en garde à vue, comparution immédiate, instruction et audience correctionnelle ou criminelle."
+      "title": "Droit pénal général",
+      "description": "Violences, infractions sexuelles, vol, escroquerie, abus de confiance, harcèlement, homicide. Assistance de la garde à vue jusqu'à la Cour d'assises."
     },
     "business": {
       "title": "Droit pénal des affaires",
-      "description": "Accompagnement des dirigeants et entreprises confrontés à des infractions économiques : abus de biens sociaux, escroquerie, abus de confiance, blanchiment."
+      "description": "Abus de biens sociaux, travail dissimulé, harcèlement moral ou sexuel, infractions au droit du travail. Accompagnement des dirigeants, cadres et salariés."
     },
     "financial": {
       "title": "Droit pénal financier",
-      "description": "Expertise en matière de délits boursiers, fraude fiscale, corruption et infractions relatives à la régulation financière."
+      "description": "Blanchiment de capitaux, escroquerie, fraude, détournement de fonds, infractions boursières. Vision stratégique issue de l'expérience en compliance."
     },
     "victims": {
       "title": "Droit des victimes",
-      "description": "Accompagnement des victimes d'infractions pénales dans leurs démarches judiciaires. Constitution de partie civile et obtention de réparation."
+      "description": "Accompagnement à chaque étape, de la plainte à l'audience, avec attention portée à la reconnaissance du vécu et à la réparation du préjudice."
     },
     "domestic": {
       "title": "Violences conjugales",
-      "description": "Prise en charge spécialisée des victimes de violences intrafamiliales. Ordonnance de protection, plainte, accompagnement tout au long de la procédure."
+      "description": "Urgence, protection et respect de la parole des victimes. Plainte, ordonnance de protection, procédures de séparation."
     },
-    "family": {
-      "title": "Droit de la famille",
-      "description": "Divorce, séparation, garde d'enfants, pension alimentaire. Médiation familiale et résolution amiable des conflits."
+    "press": {
+      "title": "Droit de la presse",
+      "description": "Diffamation, injure, atteinte à la réputation et infractions de presse, en défense comme en représentation des victimes."
     }
   },
   "domestic": {
-    "label": "Spécialisation",
-    "title": "Violences conjugales et intrafamiliales",
-    "description1": "Les violences conjugales constituent une réalité douloureuse qui touche des milliers de personnes. En tant qu'avocate spécialisée, je m'engage à accompagner les victimes avec humanité et professionnalisme.",
-    "description2": "Que vous soyez victime de violences physiques, psychologiques, économiques ou sexuelles, je vous aide à faire valoir vos droits et à vous protéger, vous et vos enfants.",
-    "description3": "Mon approche repose sur l'écoute, le respect de votre rythme et la mise en place d'une stratégie juridique adaptée à votre situation.",
+    "label": "Focus",
+    "title": "Violences conjugales",
+    "description1": "Eva Ballin intervient dans les situations de violences conjugales avec une exigence particulière : celle de l'urgence, de la protection et du respect de la parole des victimes.",
+    "description2": "Ces dossiers imposent d'agir vite, mais jamais à la légère. Elle accompagne les victimes dans un cadre sécurisant, à l'écoute de leurs choix, tout en construisant des stratégies procédurales destinées à les protéger concrètement.",
+    "description3": "Son objectif est double : assurer la sécurité immédiate et permettre à la personne accompagnée de reprendre le contrôle de sa vie, juridiquement et humainement.",
     "cta": "Consultation confidentielle",
-    "servicesTitle": "Mon accompagnement",
+    "servicesTitle": "Accompagnement",
     "services": {
-      "1": "Écoute et accompagnement personnalisé",
-      "2": "Dépôt de plainte et main courante",
-      "3": "Demande d'ordonnance de protection",
-      "4": "Constitution de partie civile",
-      "5": "Accompagnement aux audiences",
-      "6": "Coordination avec les associations d'aide aux victimes"
+      "1": "Rédaction et dépôt de plainte",
+      "2": "Constitution du dossier pénal",
+      "3": "Mesures d'éloignement",
+      "4": "Ordonnance de protection (JAF)",
+      "5": "Procédures de divorce ou séparation",
+      "6": "Accompagnement jusqu'à l'audience"
     },
-    "emergency": "Si vous êtes en danger immédiat, contactez le 17 (Police) ou le 3919 (Violences Femmes Info)."
+    "emergency": "En cas de danger immédiat, contactez le 17 (Police) ou le 3919 (Violences Femmes Info)."
   },
   "contact": {
     "label": "Contact",
-    "title": "Prenez rendez-vous",
-    "description": "Pour toute demande de consultation ou d'information, n'hésitez pas à me contacter. Je vous répondrai dans les meilleurs délais.",
+    "title": "Prendre rendez-vous",
+    "description": "Pour toute consultation ou demande d'information, n'hésitez pas à me contacter. Je vous répondrai dans les meilleurs délais.",
     "office": "Cabinet",
     "phone": "Téléphone",
     "email": "Email",
@@ -105,16 +105,17 @@
     "messagePlaceholder": "Décrivez brièvement votre situation...",
     "send": "Envoyer le message",
     "subjects": {
-      "penal": "Droit pénal",
+      "penal": "Droit pénal général",
       "business": "Droit pénal des affaires",
+      "financial": "Droit pénal financier",
       "victims": "Droit des victimes",
       "domestic": "Violences conjugales",
-      "family": "Droit de la famille",
+      "press": "Droit de la presse",
       "other": "Autre"
     }
   },
   "footer": {
-    "description": "Cabinet d'avocat spécialisé en droit pénal, droit pénal des affaires et droit des victimes. Expertise reconnue en violences conjugales et intrafamiliales.",
+    "description": "Avocat au Barreau de Nice, exerçant principalement en droit pénal et droit pénal des affaires. Accompagnement en français et en anglais.",
     "navigation": "Navigation",
     "contact": "Contact",
     "rights": "Tous droits réservés.",
