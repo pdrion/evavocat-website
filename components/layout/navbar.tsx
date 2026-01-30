@@ -31,8 +31,8 @@ export const Navbar = () => {
   const currentLocale = pathname.startsWith("/en") ? "en" : "fr";
   const otherLocale = currentLocale === "fr" ? "en" : "fr";
   const switchPath = currentLocale === "fr"
-    ? `/en${pathname}`
-    : pathname.replace("/en", "") || "/";
+    ? `/en${pathname === "/" ? "" : pathname}`
+    : pathname === "/en" ? "/" : pathname.replace("/en", "");
 
   const routeList = [
     { href: "#presentation", label: t("presentation") },
