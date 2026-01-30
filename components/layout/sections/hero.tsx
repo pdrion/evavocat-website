@@ -70,18 +70,6 @@ export const HeroSection = () => {
                 />
               </div>
 
-              {/* Decorative badge */}
-              <div className="absolute -bottom-4 -left-4 bg-[#112751] dark:bg-primary p-4 shadow-xl">
-                <div className="flex items-center gap-3">
-                  <div className="text-primary dark:text-[#112751] text-3xl font-bold">
-                    15+
-                  </div>
-                  <div className="text-sm text-white dark:text-[#112751]">
-                    <p className="font-medium">{t("years")}</p>
-                    <p className="text-white/70 dark:text-[#112751]/70">{t("experience")}</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
