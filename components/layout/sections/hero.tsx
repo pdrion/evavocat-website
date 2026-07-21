@@ -98,18 +98,18 @@ export const HeroSection = () => {
             </div>
           </div>
 
-          {/* Portrait */}
+          {/* Logo */}
           <div className="flex justify-center lg:justify-end animate-fade-in">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-primary/25 via-transparent to-[#112751]/15 dark:from-primary/30 dark:to-white/5 blur-2xl" />
+              <div className="absolute -inset-6 bg-gradient-to-br from-primary/25 via-transparent to-[#112751]/15 dark:from-primary/30 dark:to-white/5 blur-3xl" />
               <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary" />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-primary" />
               <Image
-                src="/portrait.jpg"
-                alt="Maître Eva BALLIN, avocat au Barreau de Nice"
-                width={450}
-                height={550}
-                className="relative object-cover border-2 border-[#112751]/10 dark:border-white/10 shadow-2xl"
+                src="/logo.png"
+                alt="Logo Cabinet Eva BALLIN - Avocat au Barreau de Nice"
+                width={520}
+                height={333}
+                className="relative shadow-2xl"
                 priority
               />
             </div>
