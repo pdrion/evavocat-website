@@ -26,31 +26,32 @@ export const BenefitsSection = () => {
             <h2 className="text-3xl md:text-4xl mb-6 text-[#112751] dark:text-white">
               {t("title")}
             </h2>
-            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-4 leading-relaxed text-justify hyphens-auto">
               {t("description1")}
             </p>
-            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-4 leading-relaxed text-justify hyphens-auto">
               {t("description2")}
             </p>
-            <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-4 leading-relaxed text-justify hyphens-auto">
               {t("description3")}
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify hyphens-auto">
               {t("description4")}
             </p>
           </div>
 
           <div className="order-1 lg:order-2 mb-8 lg:mb-0 flex justify-center">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 via-transparent to-[#112751]/10 dark:from-primary/20 dark:to-white/5 blur-2xl" />
-              <div className="absolute -top-3 -left-3 w-20 h-20 border-t-2 border-l-2 border-primary" />
-              <div className="absolute -bottom-3 -right-3 w-20 h-20 border-b-2 border-r-2 border-primary" />
+              <div className="absolute -inset-6 bg-gradient-to-br from-primary/20 via-transparent to-[#112751]/10 dark:from-primary/25 dark:to-white/5 blur-3xl" />
+              <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary" />
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-primary" />
               <Image
-                src="/photo-serment.png"
-                alt="Maître Eva BALLIN - Prestation de serment"
-                width={500}
-                height={600}
-                className="relative shadow-2xl border-2 border-[#112751]/10 dark:border-white/10"
+                src="/logo.png"
+                alt="Logo Cabinet Eva BALLIN"
+                width={520}
+                height={333}
+                className="relative shadow-2xl"
+                priority
               />
             </div>
           </div>

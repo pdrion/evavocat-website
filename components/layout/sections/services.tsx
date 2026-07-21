@@ -21,7 +21,7 @@ export const ServicesSection = () => {
             {t("title")}
           </h2>
 
-          <div className="space-y-4 text-lg text-muted-foreground mb-8">
+          <div className="space-y-4 text-lg text-muted-foreground mb-8 text-justify hyphens-auto leading-relaxed">
             <p>{t("description1")}</p>
             <p>{t("description2")}</p>
             <p>{t("description3")}</p>
