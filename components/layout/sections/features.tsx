@@ -1,6 +1,7 @@
 "use client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
+import { SectionLabel } from "@/components/ui/section-label";
 import { icons } from "lucide-react";
 import { useTranslations } from "next-intl";
 
@@ -27,16 +28,10 @@ export const FeaturesSection = () => {
 
       <div className="container relative">
         <div className="flex flex-col items-center mb-4">
-          <div className="flex items-center gap-3 mb-3">
-            <span className="h-px w-8 bg-primary" />
-            <p className="text-xs text-primary tracking-[0.25em] uppercase font-medium">
-              {t("label")}
-            </p>
-            <span className="h-px w-8 bg-primary" />
-          </div>
+          <SectionLabel align="center">{t("label")}</SectionLabel>
         </div>
 
-        <h2 className="text-3xl md:text-4xl text-center mb-4 text-[#112751] dark:text-white">
+        <h2 className="text-3xl md:text-4xl text-center mt-6 mb-4 text-[#112751] dark:text-white">
           {t("title")}
         </h2>
 
@@ -56,8 +51,8 @@ export const FeaturesSection = () => {
               />
               <CardHeader className="flex flex-col items-center text-center">
                 <div className="relative mb-4">
-                  <div className="absolute inset-0 bg-primary/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <div className="relative bg-[#112751] dark:bg-primary/20 p-4 group-hover:bg-[#112751] transition-colors">
+                  <div className="absolute inset-0 bg-primary/25 blur-md opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <div className="relative bg-primary/10 group-hover:bg-primary/20 p-4 transition-colors">
                     <Icon
                       name={icon as keyof typeof icons}
                       size={28}

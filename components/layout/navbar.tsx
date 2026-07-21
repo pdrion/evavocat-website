@@ -39,7 +39,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <header className="w-full top-0 mx-auto sticky border-b border-border z-40 flex justify-between items-center px-6 py-3 bg-background/95 backdrop-blur-sm">
+    <header className="w-full top-0 mx-auto sticky border-b border-border/50 z-40 flex justify-between items-center px-6 py-4 bg-background/90 backdrop-blur-md">
       <Link href="/" className="flex items-center gap-4 group">
         <Image
           src="/logo.png"
@@ -50,8 +50,8 @@ export const Navbar = () => {
           priority
         />
         <div className="hidden sm:block leading-tight">
-          <span className="block text-xl font-semibold text-[#112751] dark:text-white">
-            Eva <span className="tracking-wide">BALLIN</span>
+          <span className="block font-serif text-xl font-semibold text-[#112751] dark:text-white tracking-tight">
+            Eva <span className="font-bold">BALLIN</span>
           </span>
           <span className="block text-[11px] text-muted-foreground tracking-[0.2em] uppercase mt-0.5">
             Avocat
@@ -84,8 +84,8 @@ export const Navbar = () => {
                       height={56}
                     />
                     <div className="leading-tight">
-                      <span className="block text-lg font-semibold text-[#112751] dark:text-white">
-                        Eva BALLIN
+                      <span className="block font-serif text-lg font-semibold text-[#112751] dark:text-white tracking-tight">
+                        Eva <span className="font-bold">BALLIN</span>
                       </span>
                       <span className="block text-[11px] text-muted-foreground tracking-[0.2em] uppercase font-normal mt-0.5">
                         Avocat
@@ -149,7 +149,12 @@ export const Navbar = () => {
           </Link>
         </Button>
         <ToggleTheme />
-        <Button asChild size="sm" className="bg-[#112751] hover:bg-[#112751]/90 dark:bg-primary dark:hover:bg-primary/90 text-white dark:text-[#112751] rounded-none">
+        <Button
+          asChild
+          size="sm"
+          variant="outline"
+          className="border border-[#112751] dark:border-primary text-[#112751] dark:text-primary bg-transparent hover:bg-[#112751] hover:text-white dark:hover:bg-primary dark:hover:text-[#112751] font-medium rounded-none px-5 tracking-wide transition-colors"
+        >
           <Link href="https://wa.me/33626064138" target="_blank">
             <Phone className="size-4 mr-2" />
             {t("appointment")}

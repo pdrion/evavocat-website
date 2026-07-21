@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Libre_Baskerville, Source_Sans_3 } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
@@ -10,16 +10,12 @@ import { locales } from "@/i18n/request";
 
 const SITE_URL = "https://evavocat.com";
 
-const libreBaskerville = Libre_Baskerville({
-  weight: ["400", "700"],
+const ebGaramond = EB_Garamond({
+  weight: ["400", "500", "600", "700", "800"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
   variable: "--font-serif",
-});
-
-const sourceSans = Source_Sans_3({
-  weight: ["300", "400", "600", "700"],
-  subsets: ["latin"],
-  variable: "--font-sans",
+  display: "swap",
 });
 
 export function generateStaticParams() {
@@ -200,10 +196,8 @@ export default async function RootLayout({
       </head>
       <body
         className={cn(
-          "min-h-screen bg-background",
-          sourceSans.className,
-          sourceSans.variable,
-          libreBaskerville.variable
+          "min-h-screen bg-background font-serif",
+          ebGaramond.variable
         )}
       >
         <NextIntlClientProvider messages={messages}>

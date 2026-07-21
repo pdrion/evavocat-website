@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowRight, Phone, Scale, Globe, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
@@ -8,51 +8,64 @@ import { useTranslations } from "next-intl";
 export const HeroSection = () => {
   const t = useTranslations("hero");
 
+  const trust = [
+    { icon: Scale, label: "Barreau de Nice" },
+    { icon: MapPin, label: "Toute la France" },
+    { icon: Globe, label: "Français · English" },
+  ];
+
   return (
     <section className="relative overflow-hidden bg-white dark:bg-background">
+      {/* Ambient gradient */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-[0.04] dark:opacity-[0.06]"
+        className="pointer-events-none absolute inset-0 opacity-[0.05] dark:opacity-[0.08]"
         style={{
           backgroundImage:
-            "radial-gradient(circle at 20% 20%, hsl(var(--primary)) 0, transparent 40%), radial-gradient(circle at 80% 80%, #112751 0, transparent 40%)",
+            "radial-gradient(circle at 15% 20%, hsl(var(--primary)) 0, transparent 45%), radial-gradient(circle at 85% 80%, #13254c 0, transparent 45%)",
         }}
       />
 
-      <div className="container mx-auto px-6 py-20 md:py-28 relative">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      {/* EB monogram watermark */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -right-16 top-1/2 -translate-y-1/2 select-none opacity-[0.035] dark:opacity-[0.06] text-[24rem] leading-none font-serif font-bold text-[#112751] dark:text-white hidden xl:block"
+      >
+        EB
+      </div>
+
+      <div className="container mx-auto px-6 pt-20 pb-16 md:pt-28 md:pb-20 relative">
+        <div className="grid lg:grid-cols-[1.15fr_1fr] gap-12 lg:gap-16 items-center">
           {/* Left content */}
-          <div className="space-y-6 animate-fade-in-up">
+          <div className="space-y-7 animate-fade-in-up">
             <div className="flex items-center gap-3">
               <span className="h-px w-10 bg-primary" />
-              <p className="text-primary font-medium tracking-[0.25em] uppercase text-xs">
+              <span aria-hidden className="h-1.5 w-1.5 rotate-45 bg-primary" />
+              <p className="text-primary font-semibold tracking-[0.3em] uppercase text-[11px]">
                 {t("subtitle")}
               </p>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.05] text-[#112751] dark:text-white">
+            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.02] text-[#112751] dark:text-white">
               Eva <span className="font-bold">BALLIN</span>
-              <span className="sr-only">
-                {" "}
-                — {t("subtitle")}
-              </span>
+              <span className="sr-only"> — {t("subtitle")}</span>
             </h1>
 
             <div className="flex items-center gap-4">
-              <span className="h-px flex-1 max-w-[60px] bg-[#112751]/20 dark:bg-white/20" />
-              <p className="text-2xl md:text-3xl text-[#112751]/70 dark:text-white/70 italic font-serif">
+              <span className="h-px w-14 bg-primary" />
+              <p className="font-serif text-2xl md:text-3xl text-[#112751]/75 dark:text-white/75 italic">
                 {t("tagline")}
               </p>
             </div>
 
-            <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
+            <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
               {t("description")}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button
                 size="lg"
-                className="bg-[#112751] hover:bg-[#112751]/90 dark:bg-primary dark:hover:bg-primary/90 text-white dark:text-[#112751] font-medium px-8 py-6 text-base rounded-none shadow-md hover:shadow-lg transition-shadow"
+                className="bg-[#112751] hover:bg-[#112751]/90 dark:bg-primary dark:hover:bg-primary/90 text-white dark:text-[#112751] font-medium px-8 py-6 text-base rounded-none shadow-md hover:shadow-xl transition-all"
                 asChild
               >
                 <Link href="https://wa.me/33626064138" target="_blank">
@@ -73,14 +86,24 @@ export const HeroSection = () => {
                 </Link>
               </Button>
             </div>
+
+            {/* Trust strip */}
+            <div className="pt-6 flex flex-wrap gap-x-8 gap-y-3 text-sm text-muted-foreground border-t border-[#112751]/10 dark:border-white/10 mt-8">
+              {trust.map(({ icon: I, label }) => (
+                <div key={label} className="flex items-center gap-2">
+                  <I className="h-4 w-4 text-primary" />
+                  <span className="tracking-wide">{label}</span>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Portrait */}
           <div className="flex justify-center lg:justify-end animate-fade-in">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 via-transparent to-[#112751]/10 dark:from-primary/25 dark:to-white/5 blur-2xl" />
-              <div className="absolute -top-3 -left-3 w-24 h-24 border-t-2 border-l-2 border-primary" />
-              <div className="absolute -bottom-3 -right-3 w-24 h-24 border-b-2 border-r-2 border-primary" />
+              <div className="absolute -inset-4 bg-gradient-to-br from-primary/25 via-transparent to-[#112751]/15 dark:from-primary/30 dark:to-white/5 blur-2xl" />
+              <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary" />
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-primary" />
               <Image
                 src="/portrait.jpg"
                 alt="Maître Eva BALLIN, avocat au Barreau de Nice"
@@ -95,7 +118,7 @@ export const HeroSection = () => {
       </div>
 
       {/* Gold accent line */}
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
     </section>
   );
 };

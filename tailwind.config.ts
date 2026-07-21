@@ -21,6 +21,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-serif)", "EB Garamond", "Georgia", "serif"],
+        serif: ["var(--font-serif)", "EB Garamond", "Georgia", "serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

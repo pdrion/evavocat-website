@@ -24,7 +24,7 @@ export const FooterSection = () => {
                 className="transition-transform duration-300 group-hover:scale-105"
               />
               <div>
-                <h3 className="text-2xl text-[#112751] dark:text-white">Eva BALLIN</h3>
+                <h3 className="font-serif text-2xl text-[#112751] dark:text-white tracking-tight">Eva <span className="font-bold">BALLIN</span></h3>
                 <p className="text-[11px] text-muted-foreground tracking-[0.2em] uppercase mt-0.5">Avocat inscrit au Barreau de Nice</p>
               </div>
             </Link>

@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { SectionLabel } from "@/components/ui/section-label";
 import { Check, Phone } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
@@ -14,12 +15,7 @@ export const ServicesSection = () => {
     <section id="violences-conjugales" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div>
-          <div className="flex items-center gap-3 mb-3">
-            <span className="h-px w-10 bg-primary" />
-            <p className="text-xs text-primary tracking-[0.25em] uppercase font-medium">
-              {t("label")}
-            </p>
-          </div>
+          <SectionLabel className="mb-4">{t("label")}</SectionLabel>
 
           <h2 className="text-3xl md:text-4xl mb-6 text-[#112751] dark:text-white">
             {t("title")}

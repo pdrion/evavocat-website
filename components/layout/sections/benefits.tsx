@@ -1,6 +1,7 @@
 "use client";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
+import { SectionLabel, Divider } from "@/components/ui/section-label";
 import { icons } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
@@ -21,12 +22,7 @@ export const BenefitsSection = () => {
         {/* Présentation + Photo */}
         <div className="grid lg:grid-cols-2 place-items-center lg:gap-16 mb-16">
           <div className="order-2 lg:order-1">
-            <div className="flex items-center gap-3 mb-3">
-              <span className="h-px w-10 bg-primary" />
-              <p className="text-xs text-primary tracking-[0.25em] uppercase font-medium">
-                {t("label")}
-              </p>
-            </div>
+            <SectionLabel className="mb-4">{t("label")}</SectionLabel>
             <h2 className="text-3xl md:text-4xl mb-6 text-[#112751] dark:text-white">
               {t("title")}
             </h2>
@@ -46,30 +42,32 @@ export const BenefitsSection = () => {
 
           <div className="order-1 lg:order-2 mb-8 lg:mb-0 flex justify-center">
             <div className="relative">
-              <div className="absolute -inset-6 bg-gradient-to-br from-primary/10 via-transparent to-[#112751]/5 dark:from-primary/15 dark:to-white/5 blur-2xl" />
-              <div className="relative bg-white dark:bg-card border border-[#112751]/10 dark:border-white/10 p-10 sm:p-14 shadow-xl">
-                <Image
-                  src="/logo.png"
-                  alt="Logo Eva BALLIN - Avocat"
-                  width={380}
-                  height={380}
-                  className="mx-auto"
-                />
-              </div>
+              <div className="absolute -inset-4 bg-gradient-to-br from-primary/15 via-transparent to-[#112751]/10 dark:from-primary/20 dark:to-white/5 blur-2xl" />
+              <div className="absolute -top-3 -left-3 w-20 h-20 border-t-2 border-l-2 border-primary" />
+              <div className="absolute -bottom-3 -right-3 w-20 h-20 border-b-2 border-r-2 border-primary" />
+              <Image
+                src="/photo-serment.png"
+                alt="Maître Eva BALLIN - Prestation de serment"
+                width={500}
+                height={600}
+                className="relative shadow-2xl border-2 border-[#112751]/10 dark:border-white/10"
+              />
             </div>
           </div>
         </div>
 
         {/* Citation + Qualités - pleine largeur */}
         <div className="relative pt-16">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-primary to-transparent" />
+          <Divider className="absolute top-0 left-0 right-0 -translate-y-1/2" />
 
-          <blockquote className="max-w-4xl mx-auto text-center mb-14 px-4">
-            <span aria-hidden className="block text-6xl leading-none text-primary/40 font-serif mb-2">“</span>
-            <p className="text-lg md:text-xl italic text-muted-foreground mb-4 leading-relaxed">
+          <blockquote className="max-w-4xl mx-auto text-center mb-14 px-4 font-serif">
+            <span aria-hidden className="block text-7xl leading-none text-primary/50 mb-4">
+              “
+            </span>
+            <p className="text-lg md:text-xl italic text-muted-foreground mb-6 leading-relaxed">
               {t("quote")}
             </p>
-            <footer className="text-base font-medium text-[#112751] dark:text-white tracking-wide">
+            <footer className="text-sm tracking-[0.25em] uppercase text-[#112751] dark:text-white font-sans font-semibold">
               — {t("quoteAuthor")}
             </footer>
           </blockquote>

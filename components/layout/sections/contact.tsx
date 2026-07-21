@@ -29,6 +29,7 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { SectionLabel } from "@/components/ui/section-label";
 
 const formSchema = z.object({
   firstName: z.string().min(2).max(255),
@@ -65,12 +66,7 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <div className="mb-8">
-              <div className="flex items-center gap-3 mb-3">
-                <span className="h-px w-10 bg-primary" />
-                <p className="text-xs text-primary tracking-[0.25em] uppercase font-medium">
-                  {t("label")}
-                </p>
-              </div>
+              <SectionLabel className="mb-4">{t("label")}</SectionLabel>
               <h2 className="text-3xl md:text-4xl mb-4 text-[#112751] dark:text-white">
                 {t("title")}
               </h2>
