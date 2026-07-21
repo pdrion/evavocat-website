@@ -65,13 +65,16 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <div className="mb-8">
-              <p className="text-sm text-primary mb-2 tracking-widest uppercase font-medium">
-                {t("label")}
-              </p>
+              <div className="flex items-center gap-3 mb-3">
+                <span className="h-px w-10 bg-primary" />
+                <p className="text-xs text-primary tracking-[0.25em] uppercase font-medium">
+                  {t("label")}
+                </p>
+              </div>
               <h2 className="text-3xl md:text-4xl mb-4 text-[#112751] dark:text-white">
                 {t("title")}
               </h2>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg text-muted-foreground leading-relaxed">
                 {t("description")}
               </p>
             </div>

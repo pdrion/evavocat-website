@@ -40,18 +40,20 @@ export const Navbar = () => {
 
   return (
     <header className="w-full top-0 mx-auto sticky border-b border-border z-40 flex justify-between items-center px-6 py-3 bg-background/95 backdrop-blur-sm">
-      <Link href="/" className="flex items-center gap-3">
+      <Link href="/" className="flex items-center gap-4 group">
         <Image
           src="/logo.png"
-          alt="Eva Ballin - Avocat"
-          width={55}
-          height={55}
-                  />
-        <div className="hidden sm:block">
-          <span className="block text-lg font-semibold text-[#112751] dark:text-white">
-            Eva Ballin
+          alt="Eva BALLIN - Avocat au Barreau de Nice"
+          width={72}
+          height={72}
+          className="transition-transform duration-300 group-hover:scale-105"
+          priority
+        />
+        <div className="hidden sm:block leading-tight">
+          <span className="block text-xl font-semibold text-[#112751] dark:text-white">
+            Eva <span className="tracking-wide">BALLIN</span>
           </span>
-          <span className="block text-xs text-muted-foreground tracking-wider uppercase">
+          <span className="block text-[11px] text-muted-foreground tracking-[0.2em] uppercase mt-0.5">
             Avocat
           </span>
         </div>
@@ -77,15 +79,15 @@ export const Navbar = () => {
                   <Link href="/" className="flex items-center gap-3">
                     <Image
                       src="/logo.png"
-                      alt="Eva Ballin - Avocat"
-                      width={40}
-                      height={40}
-                                          />
-                    <div>
+                      alt="Eva BALLIN - Avocat au Barreau de Nice"
+                      width={56}
+                      height={56}
+                    />
+                    <div className="leading-tight">
                       <span className="block text-lg font-semibold text-[#112751] dark:text-white">
-                        Eva Ballin
+                        Eva BALLIN
                       </span>
-                      <span className="block text-xs text-muted-foreground tracking-wider uppercase font-normal">
+                      <span className="block text-[11px] text-muted-foreground tracking-[0.2em] uppercase font-normal mt-0.5">
                         Avocat
                       </span>
                     </div>

@@ -16,15 +16,21 @@ export const FeesSection = () => {
   return (
     <section id="honoraires" className="py-24 sm:py-32 bg-muted/30">
       <div className="container">
-        <p className="text-sm text-primary text-center mb-2 tracking-widest uppercase font-medium">
-          {t("label")}
-        </p>
+        <div className="flex flex-col items-center mb-4">
+          <div className="flex items-center gap-3 mb-3">
+            <span className="h-px w-8 bg-primary" />
+            <p className="text-xs text-primary tracking-[0.25em] uppercase font-medium">
+              {t("label")}
+            </p>
+            <span className="h-px w-8 bg-primary" />
+          </div>
+        </div>
 
         <h2 className="text-3xl md:text-4xl text-center mb-4 text-[#112751] dark:text-white">
           {t("title")}
         </h2>
 
-        <p className="md:w-2/3 mx-auto text-lg text-center text-muted-foreground mb-12 leading-relaxed">
+        <p className="md:w-2/3 mx-auto text-lg text-center text-muted-foreground mb-14 leading-relaxed">
           {t("description")}
         </p>
 
@@ -32,8 +38,12 @@ export const FeesSection = () => {
           {feeTypes.map(({ icon: Icon, key }) => (
             <Card
               key={key}
-              className="h-full bg-background border border-border/50 hover:border-primary/30 hover:shadow-lg transition-all duration-300"
+              className="group relative h-full bg-background border border-border/50 hover:border-primary/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
             >
+              <span
+                aria-hidden
+                className="absolute top-0 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
+              />
               <CardHeader className="flex flex-col items-center text-center">
                 <div className="bg-[#112751] dark:bg-primary/20 p-4 mb-4">
                   <Icon className="h-7 w-7 text-primary" />
@@ -41,7 +51,7 @@ export const FeesSection = () => {
                 <CardTitle className="text-lg">{t(`${key}.title`)}</CardTitle>
               </CardHeader>
 
-              <CardContent className="text-muted-foreground text-center text-sm">
+              <CardContent className="text-muted-foreground text-center text-sm leading-relaxed">
                 {t(`${key}.description`)}
               </CardContent>
             </Card>

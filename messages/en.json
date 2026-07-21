@@ -7,24 +7,24 @@
   },
   "hero": {
     "subtitle": "Attorney at the Nice Bar",
-    "name": "Eva Ballin",
+    "name": "Eva BALLIN",
     "tagline": "Where law meets real life",
-    "description": "Criminal law and white-collar crime. Member of the Nice Bar, practicing throughout France.",
+    "description": "Criminal law and white-collar crime. Member of the Nice Bar, she practices throughout France.",
     "cta": "Book an appointment",
-    "discover": "Discover my practice areas"
+    "discover": "Discover her practice areas"
   },
   "about": {
     "label": "About",
-    "title": "Eva Ballin, Attorney in Nice",
-    "description1": "Eva Ballin is an attorney at the Nice Bar. She practices primarily in criminal law and white-collar crime, where law meets real life, its tensions, its urgencies, its risks. For her, criminal procedure is not just a framework: it is a field of precision, where every word counts, where every mistake can be costly, and where every irregularity must be identified, discussed, and challenged.",
-    "description2": "Trained for two years at the Institut de Sciences pénales d'Aix-en-Provence, graduating with honors, she also holds two Masters degrees — in business law and financial crime — as well as a DESU in economic criminal risk. She enriched this academic background with experience in compliance and anti-money laundering at a Big Four firm in Luxembourg, before joining a white-collar crime law firm in Monaco.",
-    "description3": "She was trained by Maître Joseph COHEN SABBAN as well as Maîtres Steeve RUBEN and Marie VIOLLEAU in Paris, then by Maître Sophie JONQUET in Nice. Having also lived in Singapore and Dubai, Eva Ballin possesses an international perspective that enriches her practice. She works equally well in French and English, with the same rigor and standards.",
-    "description4": "Since January 2025, she has been practicing at a Nice firm primarily dedicated to criminal law, as a collaborating attorney, while developing her own practice. She is often described as attentive, human, and tenacious. She approaches each case as a battle worth fighting to the end, with method, loyalty, and determination.",
+    "title": "Eva BALLIN, Attorney",
+    "description1": "Eva BALLIN is an attorney at the Nice Bar. She practices primarily in criminal law and white-collar crime, where law meets real life, its tensions, its urgencies, its risks. For her, criminal procedure is not just a framework: it is a field of precision, where every word counts, where every mistake can be costly, and where every irregularity must be identified, discussed, and challenged.",
+    "description2": "Trained for two years at the Institut de Sciences pénales d'Aix-en-Provence, graduating with honors, she also holds two Masters degrees — in business law and financial crime — as well as a DESU in economic criminal risk. She enriched this academic background with experience in compliance in the fight against money laundering and terrorist financing at a Big Four firm in Luxembourg, before joining a white-collar crime law firm in Monaco.",
+    "description3": "She was trained by Maître Joseph COHEN SABBAN in Paris, whose collaborators at the time included Maîtres Steeve RUBEN and Marie VIOLLEAU. She was then trained by Maître Sophie JONQUET in Nice. Having also lived in Singapore and Dubai, Eva BALLIN possesses an international perspective that enriches her practice. She works equally well in French and English, with the same rigor and standards.",
+    "description4": "Since January 2026, she has been practicing at a Nice firm primarily dedicated to criminal law, as a collaborating attorney, while developing her own practice. She is often described as attentive, human, and tenacious. She approaches each case as a battle worth fighting to the end, with method, loyalty, and determination.",
     "quote": "\"Courage, for a lawyer, is essential, without which nothing else matters: talent, culture, knowledge of the law, everything is useful to a lawyer. But without courage, at the decisive moment, there are only words, sentences that follow one another, that shine and die. Defending is not setting off fireworks: the beautiful blue, the beautiful red, and the bouquet that rises, explodes and falls back into a thousand flowers. Then silence and night return and nothing remains.\"",
     "quoteAuthor": "Robert Badinter",
     "expertise": {
       "title": "Excellence in training",
-      "description": "Institut de Sciences pénales d'Aix-en-Provence, two Masters degrees and a DESU in economic criminal risk."
+      "description": "Master 1 in business law, Master 2 in financial and organized crime, DU from the Institute of Criminal Sciences and Criminology, DESU in economic criminal risk and compliance in Aix-en-Provence."
     },
     "international": {
       "title": "International dimension",
@@ -42,10 +42,10 @@
   "expertises": {
     "label": "Practice Areas",
     "title": "Areas of Practice",
-    "description": "Member of the Nice Bar, practicing throughout France in all forms of criminal law.",
+    "description": "Member of the Nice Bar, Maître Eva BALLIN practices throughout France in all forms of criminal law.",
     "penal": {
       "title": "General Criminal Law",
-      "description": "Offenses against persons and property: violence, sexual offenses, theft, fraud, breach of trust, harassment, threats, kidnapping, false imprisonment, homicide, murder. Assistance from police custody to sentence enforcement before all criminal courts."
+      "description": "Offenses against persons and property: violence, sexual offenses, theft, fraud, breach of trust, harassment, threats, kidnapping, false imprisonment, homicide, murder, drug-related offenses. Assistance from police custody to sentence enforcement before all criminal courts."
     },
     "business": {
       "title": "White-Collar Crime & Labor Law",
@@ -53,7 +53,7 @@
     },
     "financial": {
       "title": "Financial Criminal Law",
-      "description": "Defense and civil party representation in financial crime cases: money laundering, fraud, embezzlement, breach of trust, securities offenses. Strategic vision from compliance experience."
+      "description": "Defense and civil party representation in financial crime cases: money laundering, fraud, embezzlement, misuse of corporate assets, securities offenses. Strategic vision from compliance experience."
     },
     "public": {
       "title": "Public Criminal Law",
@@ -69,7 +69,7 @@
     },
     "victims": {
       "title": "Victims' Rights",
-      "description": "Support at every stage of criminal proceedings, from complaint to hearing, with attention to recognition of their experience and compensation for damages."
+      "description": "Support at every stage of criminal proceedings, from complaint to hearing, with careful attention to recognition of their experience and compensation for damages."
     },
     "contracts": {
       "title": "Contract Law",
@@ -79,7 +79,7 @@
   "domestic": {
     "label": "Focus",
     "title": "Domestic Violence",
-    "description1": "Eva Ballin handles domestic violence situations with a particular requirement: urgency, protection and respect for victims' voices.",
+    "description1": "Eva BALLIN handles domestic violence situations with a particular requirement: urgency, protection and respect for victims' voices.",
     "description2": "These cases require acting quickly, but never lightly. She supports victims in a secure environment, listening to their choices, while building procedural strategies designed to protect them concretely.",
     "description3": "Her goal is twofold: ensure immediate safety and enable the person she supports to regain control of their life, legally and humanly.",
     "cta": "Confidential consultation",
@@ -117,7 +117,7 @@
   "contact": {
     "label": "Contact",
     "title": "Book an appointment",
-    "description": "For any consultation or information request, please do not hesitate to contact me. I will respond as soon as possible.",
+    "description": "For any consultation or information request, please do not hesitate to contact Maître Eva BALLIN. She will respond as soon as possible.",
     "office": "Office",
     "phone": "Phone",
     "email": "Email",
@@ -147,7 +147,7 @@
     }
   },
   "footer": {
-    "description": "Attorney at the Nice Bar, practicing primarily in criminal law and white-collar crime. Services throughout France, in French and English.",
+    "description": "Attorney registered at the Nice Bar, practicing primarily in criminal law and white-collar crime. Services throughout France, in French and English.",
     "navigation": "Navigation",
     "contact": "Contact",
     "rights": "All rights reserved.",

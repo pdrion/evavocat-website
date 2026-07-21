@@ -15,16 +15,17 @@ export const FooterSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Logo et description */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-3 mb-4">
+            <Link href="/" className="flex items-center gap-4 mb-4 group">
               <Image
                 src="/logo.png"
-                alt="Eva Ballin - Avocat"
-                width={50}
-                height={50}
+                alt="Eva BALLIN - Avocat"
+                width={64}
+                height={64}
+                className="transition-transform duration-300 group-hover:scale-105"
               />
               <div>
-                <h3 className="text-2xl text-[#112751] dark:text-white">Eva Ballin</h3>
-                <p className="text-xs text-muted-foreground tracking-wider uppercase">Avocat au Barreau de Nice</p>
+                <h3 className="text-2xl text-[#112751] dark:text-white">Eva BALLIN</h3>
+                <p className="text-[11px] text-muted-foreground tracking-[0.2em] uppercase mt-0.5">Avocat inscrit au Barreau de Nice</p>
               </div>
             </Link>
             <p className="text-muted-foreground mb-4 max-w-md">
