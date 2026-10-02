@@ -142,9 +142,9 @@ const jsonLd = {
   priceRange: "€€",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "5, rue de la Préfecture",
+    streetAddress: "40, rue Gioffredo (2ème étage)",
     addressLocality: "Nice",
-    postalCode: "06300",
+    postalCode: "06000",
     addressCountry: "FR",
   },
   areaServed: {

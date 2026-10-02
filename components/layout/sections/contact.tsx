@@ -83,8 +83,8 @@ export const ContactSection = () => {
                 <div>
                   <h3 className="font-semibold mb-1">{t("office")}</h3>
                   <p className="text-muted-foreground">
-                    5, rue de la Préfecture<br />
-                    06300 Nice
+                    40, rue Gioffredo (2ème étage)<br />
+                    06000 Nice
                   </p>
                   <p className="text-sm text-muted-foreground/70 mt-1">Case Palais 387</p>
                 </div>

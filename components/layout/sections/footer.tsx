@@ -62,8 +62,8 @@ export const FooterSection = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  5, rue de la Préfecture<br />
-                  06300 Nice
+                  40, rue Gioffredo (2ème étage)<br />
+                  06000 Nice
                 </span>
               </li>
               <li className="flex items-center gap-2">
